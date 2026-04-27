@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import Layout from "@/components/layout/Layout"
 import { swiperGroup1 } from '@/util/swiperOptions'
 import Link from "next/link"
@@ -15,7 +15,7 @@ export default function BlogGrid() {
 							<div className="background-body px-3 py-2 rounded-12 border d-flex gap-3 d-inline-flex">
 								<Link href="/" className="neutral-700 text-md-medium">Home</Link>
 								<span>
-									<img src="/assets/imgs/template/icons/arrow-right.svg" alt="Carento" />
+									<img src="/assets/imgs/template/icons/arrow-right.svg" alt="VING" />
 								</span>
 								<Link href="#" className="neutral-1000 text-md-bold">Blog</Link>
 							</div>
@@ -34,7 +34,7 @@ export default function BlogGrid() {
 												</h3>
 												<div className="card-meta-user">
 													<div className="box-author-small">
-														<img src="/assets/imgs/blog/blog-grid/avatar.png" alt="carento" />
+														<img src="/assets/imgs/blog/blog-grid/avatar.png" alt="ving" />
 														<p className="text-sm-bold">By Jimmy Dave</p>
 													</div>
 													<div className="date-post">
@@ -58,7 +58,7 @@ export default function BlogGrid() {
 												</h3>
 												<div className="card-meta-user">
 													<div className="box-author-small">
-														<img src="/assets/imgs/blog/blog-grid/avatar.png" alt="carento" />
+														<img src="/assets/imgs/blog/blog-grid/avatar.png" alt="ving" />
 														<p className="text-sm-bold">By Jimmy Dave</p>
 													</div>
 													<div className="date-post">
@@ -103,7 +103,7 @@ export default function BlogGrid() {
 							<div className="col-lg-4 col-md-6 col-12">
 								<div className="card-news background-card hover-up mb-4">
 									<div className="card-image">
-										<img src="/assets/imgs/blog/blog-grid/img-3.png" alt="Carento" />
+										<img src="/assets/imgs/blog/blog-grid/img-3.png" alt="VING" />
 									</div>
 									<div className="card-info">
 										<label className="bg-2 rounded-12 position-absolute top-0 end-0 translate-middle-y px-3 py-2 me-4 text-sm-bold">Car Review</label>
@@ -112,7 +112,7 @@ export default function BlogGrid() {
 										<div className="card-program">
 											<div className="endtime">
 												<div className="card-author">
-													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar1.png" alt="Carento" />
+													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar1.png" alt="VING" />
 													<p className="text-sm-bold neutral-1000">Jimmy Dave</p>
 												</div>
 												<div className="card-button"><Link className="btn btn-gray" href="/blog-details">Keep Reading</Link></div>
@@ -124,7 +124,7 @@ export default function BlogGrid() {
 							<div className="col-lg-4 col-md-6 col-12">
 								<div className="card-news background-card hover-up mb-4">
 									<div className="card-image">
-										<img src="/assets/imgs/blog/blog-grid/img-4.png" alt="Carento" />
+										<img src="/assets/imgs/blog/blog-grid/img-4.png" alt="VING" />
 									</div>
 									<div className="card-info">
 										<label className="bg-2 rounded-12 position-absolute top-0 end-0 translate-middle-y px-3 py-2 me-4 text-sm-bold">Travel Tips</label>
@@ -133,7 +133,7 @@ export default function BlogGrid() {
 										<div className="card-program">
 											<div className="endtime">
 												<div className="card-author">
-													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar2.png" alt="Carento" />
+													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar2.png" alt="VING" />
 													<p className="text-sm-bold neutral-1000">Jimmy Dave</p>
 												</div>
 												<div className="card-button"><Link className="btn btn-gray" href="/blog-details">Keep Reading</Link></div>
@@ -145,7 +145,7 @@ export default function BlogGrid() {
 							<div className="col-lg-4 col-md-6 col-12">
 								<div className="card-news background-card hover-up mb-4">
 									<div className="card-image">
-										<img src="/assets/imgs/blog/blog-grid/img-5.png" alt="Carento" />
+										<img src="/assets/imgs/blog/blog-grid/img-5.png" alt="VING" />
 									</div>
 									<div className="card-info">
 										<label className="bg-2 rounded-12 position-absolute top-0 end-0 translate-middle-y px-3 py-2 me-4 text-sm-bold">Industry News</label>
@@ -154,7 +154,7 @@ export default function BlogGrid() {
 										<div className="card-program">
 											<div className="endtime">
 												<div className="card-author">
-													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar3.png" alt="Carento" />
+													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar3.png" alt="VING" />
 													<p className="text-sm-bold neutral-1000">Jimmy Dave</p>
 												</div>
 												<div className="card-button"><Link className="btn btn-gray" href="/blog-details">Keep Reading</Link></div>
@@ -166,7 +166,7 @@ export default function BlogGrid() {
 							<div className="col-lg-4 col-md-6 col-12">
 								<div className="card-news background-card hover-up mb-4">
 									<div className="card-image">
-										<img src="/assets/imgs/blog/blog-grid/img-6.png" alt="Carento" />
+										<img src="/assets/imgs/blog/blog-grid/img-6.png" alt="VING" />
 									</div>
 									<div className="card-info">
 										<label className="bg-2 rounded-12 position-absolute top-0 end-0 translate-middle-y px-3 py-2 me-4 text-sm-bold">Car Updates</label>
@@ -175,7 +175,7 @@ export default function BlogGrid() {
 										<div className="card-program">
 											<div className="endtime">
 												<div className="card-author">
-													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar4.png" alt="Carento" />
+													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar4.png" alt="VING" />
 													<p className="text-sm-bold neutral-1000">Jimmy Dave</p>
 												</div>
 												<div className="card-button"><Link className="btn btn-gray" href="/blog-details">Keep Reading</Link></div>
@@ -187,7 +187,7 @@ export default function BlogGrid() {
 							<div className="col-lg-4 col-md-6 col-12">
 								<div className="card-news background-card hover-up mb-4">
 									<div className="card-image">
-										<img src="/assets/imgs/blog/blog-grid/img-7.png" alt="Carento" />
+										<img src="/assets/imgs/blog/blog-grid/img-7.png" alt="VING" />
 									</div>
 									<div className="card-info">
 										<label className="bg-2 rounded-12 position-absolute top-0 end-0 translate-middle-y px-3 py-2 me-4 text-sm-bold">Rental Advice</label>
@@ -196,7 +196,7 @@ export default function BlogGrid() {
 										<div className="card-program">
 											<div className="endtime">
 												<div className="card-author">
-													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar5.png" alt="Carento" />
+													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar5.png" alt="VING" />
 													<p className="text-sm-bold neutral-1000">Jimmy Dave</p>
 												</div>
 												<div className="card-button"><Link className="btn btn-gray" href="/blog-details">Keep Reading</Link></div>
@@ -208,7 +208,7 @@ export default function BlogGrid() {
 							<div className="col-lg-4 col-md-6 col-12">
 								<div className="card-news background-card hover-up mb-4">
 									<div className="card-image">
-										<img src="/assets/imgs/blog/blog-grid/img-8.png" alt="Carento" />
+										<img src="/assets/imgs/blog/blog-grid/img-8.png" alt="VING" />
 									</div>
 									<div className="card-info">
 										<label className="bg-2 rounded-12 position-absolute top-0 end-0 translate-middle-y px-3 py-2 me-4 text-sm-bold">Road Trips</label>
@@ -217,7 +217,7 @@ export default function BlogGrid() {
 										<div className="card-program">
 											<div className="endtime">
 												<div className="card-author">
-													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar6.png" alt="Carento" />
+													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar6.png" alt="VING" />
 													<p className="text-sm-bold neutral-1000">Jimmy Dave</p>
 												</div>
 												<div className="card-button"><Link className="btn btn-gray" href="/blog-details">Keep Reading</Link></div>
@@ -229,7 +229,7 @@ export default function BlogGrid() {
 							<div className="col-lg-4 col-md-6 col-12">
 								<div className="card-news background-card hover-up mb-4">
 									<div className="card-image">
-										<img src="/assets/imgs/blog/blog-grid/img-9.png" alt="Carento" />
+										<img src="/assets/imgs/blog/blog-grid/img-9.png" alt="VING" />
 									</div>
 									<div className="card-info">
 										<label className="bg-2 rounded-12 position-absolute top-0 end-0 translate-middle-y px-3 py-2 me-4 text-sm-bold">Car Review</label>
@@ -238,7 +238,7 @@ export default function BlogGrid() {
 										<div className="card-program">
 											<div className="endtime">
 												<div className="card-author">
-													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar7.png" alt="Carento" />
+													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar7.png" alt="VING" />
 													<p className="text-sm-bold neutral-1000">Jimmy Dave</p>
 												</div>
 												<div className="card-button"><Link className="btn btn-gray" href="/blog-details">Keep Reading</Link></div>
@@ -250,7 +250,7 @@ export default function BlogGrid() {
 							<div className="col-lg-4 col-md-6 col-12">
 								<div className="card-news background-card hover-up mb-4">
 									<div className="card-image">
-										<img src="/assets/imgs/blog/blog-grid/img-10.png" alt="Carento" />
+										<img src="/assets/imgs/blog/blog-grid/img-10.png" alt="VING" />
 									</div>
 									<div className="card-info">
 										<label className="bg-2 rounded-12 position-absolute top-0 end-0 translate-middle-y px-3 py-2 me-4 text-sm-bold">Car Review</label>
@@ -259,7 +259,7 @@ export default function BlogGrid() {
 										<div className="card-program">
 											<div className="endtime">
 												<div className="card-author">
-													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar3.png" alt="Carento" />
+													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar3.png" alt="VING" />
 													<p className="text-sm-bold neutral-1000">Jimmy Dave</p>
 												</div>
 												<div className="card-button"><Link className="btn btn-gray" href="/blog-details">Keep Reading</Link></div>
@@ -271,7 +271,7 @@ export default function BlogGrid() {
 							<div className="col-lg-4 col-md-6 col-12">
 								<div className="card-news background-card hover-up mb-4">
 									<div className="card-image">
-										<img src="/assets/imgs/blog/blog-grid/img-11.png" alt="Carento" />
+										<img src="/assets/imgs/blog/blog-grid/img-11.png" alt="VING" />
 									</div>
 									<div className="card-info">
 										<label className="bg-2 rounded-12 position-absolute top-0 end-0 translate-middle-y px-3 py-2 me-4 text-sm-bold">Discovery</label>
@@ -280,7 +280,7 @@ export default function BlogGrid() {
 										<div className="card-program">
 											<div className="endtime">
 												<div className="card-author">
-													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar5.png" alt="Carento" />
+													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar5.png" alt="VING" />
 													<p className="text-sm-bold neutral-1000">Jimmy Dave</p>
 												</div>
 												<div className="card-button"><Link className="btn btn-gray" href="/blog-details">Keep Reading</Link></div>
@@ -292,7 +292,7 @@ export default function BlogGrid() {
 							<div className="col-lg-4 col-md-6 col-12">
 								<div className="card-news background-card hover-up mb-4">
 									<div className="card-image">
-										<img src="/assets/imgs/blog/blog-grid/img-12.png" alt="Carento" />
+										<img src="/assets/imgs/blog/blog-grid/img-12.png" alt="VING" />
 									</div>
 									<div className="card-info">
 										<label className="bg-2 rounded-12 position-absolute top-0 end-0 translate-middle-y px-3 py-2 me-4 text-sm-bold">Industry News</label>
@@ -301,7 +301,7 @@ export default function BlogGrid() {
 										<div className="card-program">
 											<div className="endtime">
 												<div className="card-author">
-													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar3.png" alt="Carento" />
+													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar3.png" alt="VING" />
 													<p className="text-sm-bold neutral-1000">Jimmy Dave</p>
 												</div>
 												<div className="card-button"><Link className="btn btn-gray" href="/blog-details">Keep Reading</Link></div>
@@ -313,7 +313,7 @@ export default function BlogGrid() {
 							<div className="col-lg-4 col-md-6 col-12">
 								<div className="card-news background-card hover-up mb-4">
 									<div className="card-image">
-										<img src="/assets/imgs/blog/blog-grid/img-13.png" alt="Carento" />
+										<img src="/assets/imgs/blog/blog-grid/img-13.png" alt="VING" />
 									</div>
 									<div className="card-info">
 										<label className="bg-2 rounded-12 position-absolute top-0 end-0 translate-middle-y px-3 py-2 me-4 text-sm-bold">Industry News</label>
@@ -322,7 +322,7 @@ export default function BlogGrid() {
 										<div className="card-program">
 											<div className="endtime">
 												<div className="card-author">
-													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar2.png" alt="Carento" />
+													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar2.png" alt="VING" />
 													<p className="text-sm-bold neutral-1000">Jimmy Dave</p>
 												</div>
 												<div className="card-button"><Link className="btn btn-gray" href="/blog-details">Keep Reading</Link></div>
@@ -334,7 +334,7 @@ export default function BlogGrid() {
 							<div className="col-lg-4 col-md-6 col-12">
 								<div className="card-news background-card hover-up mb-4">
 									<div className="card-image">
-										<img src="/assets/imgs/blog/blog-grid/img-14.png" alt="Carento" />
+										<img src="/assets/imgs/blog/blog-grid/img-14.png" alt="VING" />
 									</div>
 									<div className="card-info">
 										<label className="bg-2 rounded-12 position-absolute top-0 end-0 translate-middle-y px-3 py-2 me-4 text-sm-bold">Industry News</label>
@@ -343,7 +343,7 @@ export default function BlogGrid() {
 										<div className="card-program">
 											<div className="endtime">
 												<div className="card-author">
-													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar8.png" alt="Carento" />
+													<img className="rounded-circle border border-primary" src="/assets/imgs/blog/blog-grid/avatar8.png" alt="VING" />
 													<p className="text-sm-bold neutral-1000">Jimmy Dave</p>
 												</div>
 												<div className="card-button"><Link className="btn btn-gray" href="/blog-details">Keep Reading</Link></div>

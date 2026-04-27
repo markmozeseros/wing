@@ -1,4 +1,4 @@
-
+﻿
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function Register() {
@@ -47,17 +47,17 @@ export default function Register() {
 										<p className="text-md-medium neutral-500 text-center">Or connect with your social account</p>
 										<div className="box-button-logins">
 											<Link className="btn btn-login btn-google mr-10" href="#">
-												<img src="/assets/imgs/template/popup/google.svg" alt="Carento" />
+												<img src="/assets/imgs/template/popup/google.svg" alt="VING" />
 												<span className="text-sm-bold">Sign up with Google</span>
 											</Link>
 											<Link className="btn btn-login mr-10" href="#">
-												<img src="/assets/imgs/template/popup/facebook.svg" alt="Carento" />
+												<img src="/assets/imgs/template/popup/facebook.svg" alt="VING" />
 											</Link>
 											<Link className="btn btn-login" href="#">
-												<img src="/assets/imgs/template/popup/apple.svg" alt="Carento" />
+												<img src="/assets/imgs/template/popup/apple.svg" alt="VING" />
 											</Link>
 										</div>
-										<p className="text-sm-medium neutral-500 text-center mt-70">Already have an account? <Link className="neutral-1000" href="/login">Login Here !</Link></p>
+										<p className="text-sm-medium neutral-500 text-center mt-70">Already have an account? Use the contact page to request account access.</p>
 									</form>
 								</div>
 							</div>

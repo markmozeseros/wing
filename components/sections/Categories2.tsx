@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export default function Categories2() {
     return (
@@ -26,7 +26,7 @@ export default function Categories2() {
                             <div className="col-lg-2 col-md-4 col-sm-4 text-center mb-lg-0 mb-3 wow fadeIn" data-wow-delay="0.1s">
                                 <div className="card-popular background-100 hover-up position-relative">
                                     <Link href="/cars-list-2" className="card-image border-0">
-                                        <img src="/assets/imgs/categories/categories-2/cross-over.png" alt="Carento" />
+                                        <img src="/assets/imgs/categories/categories-2/cross-over.png" alt="VING" />
                                     </Link>
                                     <div className="card-info">
                                         <div className="card-meta position-absolute top-100 start-50 translate-middle ">
@@ -45,7 +45,7 @@ export default function Categories2() {
                             <div className="col-lg-2 col-md-4 col-sm-4 text-center mb-lg-0 mb-3 wow fadeIn" data-wow-delay="0.2s">
                                 <div className="card-popular background-100 hover-up position-relative">
                                     <Link href="/cars-list-2" className="card-image border-0">
-                                        <img src="/assets/imgs/categories/categories-2/hatchback.png" alt="Carento" />
+                                        <img src="/assets/imgs/categories/categories-2/hatchback.png" alt="VING" />
                                     </Link>
                                     <div className="card-info">
                                         <div className="card-meta position-absolute top-100 start-50 translate-middle ">
@@ -64,7 +64,7 @@ export default function Categories2() {
                             <div className="col-lg-2 col-md-4 col-sm-4 text-center mb-lg-0 mb-3 wow fadeIn" data-wow-delay="0.3s">
                                 <div className="card-popular background-100 hover-up position-relative">
                                     <Link href="/cars-list-2" className="card-image border-0">
-                                        <img src="/assets/imgs/categories/categories-2/sedan.png" alt="Carento" />
+                                        <img src="/assets/imgs/categories/categories-2/sedan.png" alt="VING" />
                                     </Link>
                                     <div className="card-info">
                                         <div className="card-meta position-absolute top-100 start-50 translate-middle ">
@@ -83,7 +83,7 @@ export default function Categories2() {
                             <div className="col-lg-2 col-md-4 col-sm-4 text-center mb-lg-0 mb-3 wow fadeIn" data-wow-delay="0.4s">
                                 <div className="card-popular background-100 hover-up position-relative">
                                     <Link href="/cars-list-2" className="card-image border-0">
-                                        <img src="/assets/imgs/categories/categories-2/SUV.png" alt="Carento" />
+                                        <img src="/assets/imgs/categories/categories-2/SUV.png" alt="VING" />
                                     </Link>
                                     <div className="card-info">
                                         <div className="card-meta position-absolute top-100 start-50 translate-middle ">
@@ -102,7 +102,7 @@ export default function Categories2() {
                             <div className="col-lg-2 col-md-4 col-sm-4 text-center mb-lg-0 mb-3 wow fadeIn" data-wow-delay="0.5s">
                                 <div className="card-popular background-100 hover-up position-relative">
                                     <Link href="/cars-list-2" className="card-image border-0">
-                                        <img src="/assets/imgs/categories/categories-2/sport.png" alt="Carento" />
+                                        <img src="/assets/imgs/categories/categories-2/sport.png" alt="VING" />
                                     </Link>
                                     <div className="card-info">
                                         <div className="card-meta position-absolute top-100 start-50 translate-middle ">
@@ -121,7 +121,7 @@ export default function Categories2() {
                             <div className="col-lg-2 col-md-4 col-sm-4 text-center mb-lg-0 mb-3 wow fadeIn" data-wow-delay="0.6s">
                                 <div className="card-popular background-100 hover-up position-relative">
                                     <Link href="/cars-list-2" className="card-image border-0">
-                                        <img src="/assets/imgs/categories/categories-2/minivan.png" alt="Carento" />
+                                        <img src="/assets/imgs/categories/categories-2/minivan.png" alt="VING" />
                                     </Link>
                                     <div className="card-info">
                                         <div className="card-meta position-absolute top-100 start-50 translate-middle ">
@@ -144,3 +144,4 @@ export default function Categories2() {
         </>
     );
 }
+

@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useState } from 'react'
@@ -27,10 +27,10 @@ export default function Calculator() {
 								<div className="col-lg-7 mt-lg-0 mt-4">
 									<div className="d-flex flex-md-row flex-column align-items-center justify-content-center gap-3 mb-30">
 										<div>
-											<img className="rounded-12" src="/assets/imgs/cta/cta-11/img-1.png" alt="Carento" />
+											<img className="rounded-12" src="/assets/imgs/cta/cta-11/img-1.png" alt="VING" />
 										</div>
 										<div>
-											<img className="rounded-12" src="/assets/imgs/cta/cta-11/img-2.png" alt="Carento" />
+											<img className="rounded-12" src="/assets/imgs/cta/cta-11/img-2.png" alt="VING" />
 										</div>
 									</div>
 								</div>
@@ -42,8 +42,8 @@ export default function Calculator() {
 								<div className="row align-items-center flex-column-reverse flex-lg-row">
 									<div className="col-lg-6">
 										<div className="card-image d-inline-block position-relative mb-100">
-											<img className="rounded-12" src="/assets/imgs/cta/cta-11/img-3.png" alt="Carento" />
-											<img className="position-absolute top-100 start-100 translate-middle d-none d-md-block" src="/assets/imgs/cta/cta-11/img-car.png" alt="Carento" />
+											<img className="rounded-12" src="/assets/imgs/cta/cta-11/img-3.png" alt="VING" />
+											<img className="position-absolute top-100 start-100 translate-middle d-none d-md-block" src="/assets/imgs/cta/cta-11/img-car.png" alt="VING" />
 										</div>
 									</div>
 									<div className="col-lg-6 ps-lg-5">

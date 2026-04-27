@@ -13,7 +13,7 @@ export default function HeroSearch() {
 				<div className="item-search">
 					<label className="text-sm-bold neutral-500">{t('search1.pickUpLocation')}</label>
 					<Dropdown className="dropdown">
-						<Dropdown.Toggle as="div" className="btn btn-secondary dropdown-toggle btn-dropdown-search location-search"  aria-expanded="false">New York, USA</Dropdown.Toggle>
+						<Dropdown.Toggle id="hero-search-pickup-toggle" as="div" className="btn btn-secondary dropdown-toggle btn-dropdown-search location-search" aria-expanded="false">New York, USA</Dropdown.Toggle>
 						<Dropdown.Menu as="ul" className="dropdown-menu">
 							<li>
 								<Link className="dropdown-item" href="#">Paris, France</Link>
@@ -30,7 +30,7 @@ export default function HeroSearch() {
 				<div className="item-search item-search-2">
 					<label className="text-sm-bold neutral-500">{t('search1.dropOffLocation')}</label>
 					<Dropdown className="dropdown">
-						<Dropdown.Toggle as="div" className="btn btn-secondary dropdown-toggle btn-dropdown-search location-search" >Delaware, USA</Dropdown.Toggle>
+						<Dropdown.Toggle id="hero-search-dropoff-toggle" as="div" className="btn btn-secondary dropdown-toggle btn-dropdown-search location-search">Delaware, USA</Dropdown.Toggle>
 						<Dropdown.Menu as="ul" className="dropdown-menu">
 							<li>
 								<Link className="dropdown-item" href="#">Paris, France</Link>

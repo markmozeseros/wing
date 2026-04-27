@@ -1,4 +1,4 @@
-
+﻿
 import Link from "next/link"
 
 export default function Team1() {
@@ -20,7 +20,7 @@ export default function Team1() {
 							<div className="card-news background-card hover-up shadow-2 mb-50">
 								<div className="card-image">
 									<Link href="/dealer-details">
-										<img src="/assets/imgs/team/team-1/portrait-1.png" alt="Carento" />
+										<img src="/assets/imgs/team/team-1/portrait-1.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4">
@@ -34,20 +34,20 @@ export default function Team1() {
 										<div className="endtime">
 											<div className="card-author d-flex align-items-center gap-2">
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="VING" />
 												</Link>
 											</div>
 											<Link href="/dealer-details" className="rounded-circle background-100 icon-shape icon icon-sm hover-up border icon-shape-arrow">
-												<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="Carento" />
+												<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="VING" />
 											</Link>
 										</div>
 									</div>
@@ -58,7 +58,7 @@ export default function Team1() {
 							<div className="card-news background-card hover-up shadow-2 mb-50">
 								<div className="card-image">
 									<Link href="/dealer-details">
-										<img src="/assets/imgs/team/team-1/portrait-2.png" alt="Carento" />
+										<img src="/assets/imgs/team/team-1/portrait-2.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4">
@@ -72,20 +72,20 @@ export default function Team1() {
 										<div className="endtime">
 											<div className="card-author d-flex align-items-center gap-2">
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="VING" />
 												</Link>
 											</div>
 											<Link href="/dealer-details" className="rounded-circle background-100 icon-shape icon icon-sm hover-up border icon-shape-arrow">
-												<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="Carento" />
+												<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="VING" />
 											</Link>
 										</div>
 									</div>
@@ -96,7 +96,7 @@ export default function Team1() {
 							<div className="card-news background-card hover-up shadow-2 mb-50">
 								<div className="card-image">
 									<Link href="/dealer-details">
-										<img src="/assets/imgs/team/team-1/portrait-3.png" alt="Carento" />
+										<img src="/assets/imgs/team/team-1/portrait-3.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4">
@@ -110,20 +110,20 @@ export default function Team1() {
 										<div className="endtime">
 											<div className="card-author d-flex align-items-center gap-2">
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="VING" />
 												</Link>
 											</div>
 											<Link href="/dealer-details" className="rounded-circle background-100 icon-shape icon icon-sm hover-up border icon-shape-arrow">
-												<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="Carento" />
+												<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="VING" />
 											</Link>
 										</div>
 									</div>
@@ -134,7 +134,7 @@ export default function Team1() {
 							<div className="card-news background-card hover-up shadow-2 mb-50">
 								<div className="card-image">
 									<Link href="/dealer-details">
-										<img src="/assets/imgs/team/team-1/portrait-4.png" alt="Carento" />
+										<img src="/assets/imgs/team/team-1/portrait-4.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4">
@@ -148,20 +148,20 @@ export default function Team1() {
 										<div className="endtime">
 											<div className="card-author d-flex align-items-center gap-2">
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="VING" />
 												</Link>
 											</div>
 											<Link href="/dealer-details" className="rounded-circle background-100 icon-shape icon icon-sm hover-up border icon-shape-arrow">
-												<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="Carento" />
+												<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="VING" />
 											</Link>
 										</div>
 									</div>
@@ -172,7 +172,7 @@ export default function Team1() {
 							<div className="card-news background-card hover-up shadow-2 mb-50">
 								<div className="card-image">
 									<Link href="/dealer-details">
-										<img src="/assets/imgs/team/team-1/portrait-5.png" alt="Carento" />
+										<img src="/assets/imgs/team/team-1/portrait-5.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4">
@@ -186,20 +186,20 @@ export default function Team1() {
 										<div className="endtime">
 											<div className="card-author d-flex align-items-center gap-2">
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="VING" />
 												</Link>
 											</div>
 											<Link href="/dealer-details" className="rounded-circle background-100 icon-shape icon icon-sm hover-up border icon-shape-arrow">
-												<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="Carento" />
+												<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="VING" />
 											</Link>
 										</div>
 									</div>
@@ -210,7 +210,7 @@ export default function Team1() {
 							<div className="card-news background-card hover-up shadow-2 mb-50">
 								<div className="card-image">
 									<Link href="/dealer-details">
-										<img src="/assets/imgs/team/team-1/portrait-6.png" alt="Carento" />
+										<img src="/assets/imgs/team/team-1/portrait-6.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4">
@@ -224,20 +224,20 @@ export default function Team1() {
 										<div className="endtime">
 											<div className="card-author d-flex align-items-center gap-2">
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="VING" />
 												</Link>
 											</div>
 											<Link href="/dealer-details" className="rounded-circle background-100 icon-shape icon icon-sm hover-up border icon-shape-arrow">
-												<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="Carento" />
+												<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="VING" />
 											</Link>
 										</div>
 									</div>
@@ -248,7 +248,7 @@ export default function Team1() {
 							<div className="card-news background-card hover-up shadow-2 mb-50">
 								<div className="card-image">
 									<Link href="/dealer-details">
-										<img src="/assets/imgs/team/team-1/portrait-7.png" alt="Carento" />
+										<img src="/assets/imgs/team/team-1/portrait-7.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4">
@@ -262,20 +262,20 @@ export default function Team1() {
 										<div className="endtime">
 											<div className="card-author d-flex align-items-center gap-2">
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="VING" />
 												</Link>
 											</div>
 											<Link href="/dealer-details" className="rounded-circle background-100 icon-shape icon icon-sm hover-up border icon-shape-arrow">
-												<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="Carento" />
+												<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="VING" />
 											</Link>
 										</div>
 									</div>
@@ -286,7 +286,7 @@ export default function Team1() {
 							<div className="card-news background-card hover-up shadow-2 mb-50">
 								<div className="card-image">
 									<Link href="/dealer-details">
-										<img src="/assets/imgs/team/team-1/portrait-8.png" alt="Carento" />
+										<img src="/assets/imgs/team/team-1/portrait-8.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4">
@@ -300,20 +300,20 @@ export default function Team1() {
 										<div className="endtime">
 											<div className="card-author d-flex align-items-center gap-2">
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-1.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-2.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-3.svg" alt="VING" />
 												</Link>
 												<Link href="#" className="rounded-circle background-100 icon-shape icon icon-sm hover-up">
-													<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="Carento" />
+													<img className="m-0" src="/assets/imgs/team/team-1/icon-4.svg" alt="VING" />
 												</Link>
 											</div>
 											<Link href="/dealer-details" className="rounded-circle background-100 icon-shape icon icon-sm hover-up border icon-shape-arrow">
-												<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="Carento" />
+												<img className="m-0" src="/assets/imgs/team/team-1/arrow-up-right.svg" alt="VING" />
 											</Link>
 										</div>
 									</div>
@@ -326,3 +326,4 @@ export default function Team1() {
 		</>
 	)
 }
+

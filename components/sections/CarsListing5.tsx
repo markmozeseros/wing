@@ -1,4 +1,4 @@
-
+﻿
 import Link from "next/link"
 
 export default function CarsListing5() {
@@ -28,7 +28,7 @@ export default function CarsListing5() {
 							<div className="card-journey-small background-card hover-up">
 								<div className="card-image">
 									<Link href="/cars-details-2">
-										<img src="/assets/imgs/cars-listing/cars-listing-2/car-1.png" alt="Carento" />
+										<img src="/assets/imgs/cars-listing/cars-listing-2/car-1.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4 pt-30">
@@ -64,7 +64,7 @@ export default function CarsListing5() {
 							<div className="card-journey-small background-card hover-up">
 								<div className="card-image">
 									<Link href="/cars-details-2">
-										<img src="/assets/imgs/cars-listing/cars-listing-2/car-2.png" alt="Carento" />
+										<img src="/assets/imgs/cars-listing/cars-listing-2/car-2.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4 pt-30">
@@ -100,7 +100,7 @@ export default function CarsListing5() {
 							<div className="card-journey-small background-card hover-up">
 								<div className="card-image">
 									<Link href="/cars-details-2">
-										<img src="/assets/imgs/cars-listing/cars-listing-2/car-3.png" alt="Carento" />
+										<img src="/assets/imgs/cars-listing/cars-listing-2/car-3.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4 pt-30">
@@ -136,7 +136,7 @@ export default function CarsListing5() {
 							<div className="card-journey-small background-card hover-up">
 								<div className="card-image">
 									<Link href="/cars-details-2">
-										<img src="/assets/imgs/cars-listing/cars-listing-2/car-4.png" alt="Carento" />
+										<img src="/assets/imgs/cars-listing/cars-listing-2/car-4.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4 pt-30">
@@ -174,3 +174,4 @@ export default function CarsListing5() {
 		</>
 	)
 }
+

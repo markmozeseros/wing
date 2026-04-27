@@ -1,4 +1,4 @@
-
+﻿
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import Marquee from 'react-fast-marquee'
@@ -12,7 +12,7 @@ export default function ShopList() {
 					<div className="page-header-2 pt-30 background-body">
 						<div className="custom-container position-relative mx-auto">
 							<div className="bg-overlay rounded-12 overflow-hidden">
-								<img className="w-100 h-100 img-fluid img-banner" src="/assets/imgs/page-header/banner9.png" alt="Carento" />
+								<img className="w-100 h-100 img-fluid img-banner" src="/assets/imgs/page-header/banner9.png" alt="VING" />
 							</div>
 							<div className="container position-absolute z-1 top-50 start-50 pb-70 translate-middle text-center">
 								<span className="text-sm-bold bg-2 px-4 py-3 rounded-12">Find cars for sale and for rent near you</span>
@@ -22,11 +22,11 @@ export default function ShopList() {
 							<div className="background-body position-absolute z-1 top-100 start-50 translate-middle px-3 py-2 rounded-12 border d-flex gap-3 @@navigation-page d-none d-md-flex">
 								<Link href="/" className="neutral-700 text-md-medium">Home</Link>
 								<span className="@@ds-prev-page">
-									<img src="/assets/imgs/template/icons/arrow-right.svg" alt="Carento" />
+									<img src="/assets/imgs/template/icons/arrow-right.svg" alt="VING" />
 								</span>
 								<Link href="#" className="neutral-1000 text-md-bold">Shop</Link>
 								<span>
-									<img src="/assets/imgs/template/icons/arrow-right.svg" alt="Carento" />
+									<img src="/assets/imgs/template/icons/arrow-right.svg" alt="VING" />
 								</span>
 								<Link href="#" className="neutral-1000 text-md-bold text-nowrap">All items</Link>
 							</div>
@@ -38,7 +38,7 @@ export default function ShopList() {
 							<div className="row align-items-end">
 								<div className="col-md-9 mb-30 wow fadeInUp">
 									<h4 className="title-svg neutral-1000 mb-15">Latest Products</h4>
-									<p className="text-lg-medium text-bold neutral-500">Experience The Best Car Services In Carento</p>
+									<p className="text-lg-medium text-bold neutral-500">Experience The Best Car Services In VING</p>
 								</div>
 							</div>
 						</div>
@@ -112,7 +112,7 @@ export default function ShopList() {
 																<path d="M17.071 10.1422L11.4141 15.7991C10.6331 16.5801 9.36672 16.5801 8.58568 15.7991L2.92882 10.1422C0.9762 8.1896 0.9762 5.02378 2.92882 3.07116C4.88144 1.11853 8.04727 1.11853 9.99989 3.07116C11.9525 1.11853 15.1183 1.11853 17.071 3.07116C19.0236 5.02378 19.0236 8.1896 17.071 10.1422Z" stroke="#101010" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															</svg>
 														</Link>
-														<img src="/assets/imgs/shop/shop-list/product1.png" alt="Carento" />
+														<img src="/assets/imgs/shop/shop-list/product1.png" alt="VING" />
 													</div>
 													<div className="card-info p-3 pt-30 border-top">
 														<div className="card-rating">
@@ -132,7 +132,7 @@ export default function ShopList() {
 																<div className="card-price">
 																	<h6 className="text-md-medium neutral-500 text-decoration-line-through">$68.53</h6>
 																</div>
-																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="Carento" /></Link>
+																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="VING" /></Link>
 															</div>
 															<div className="endtime">
 																<div className="card-price">
@@ -152,7 +152,7 @@ export default function ShopList() {
 																<path d="M17.071 10.1422L11.4141 15.7991C10.6331 16.5801 9.36672 16.5801 8.58568 15.7991L2.92882 10.1422C0.9762 8.1896 0.9762 5.02378 2.92882 3.07116C4.88144 1.11853 8.04727 1.11853 9.99989 3.07116C11.9525 1.11853 15.1183 1.11853 17.071 3.07116C19.0236 5.02378 19.0236 8.1896 17.071 10.1422Z" stroke="#101010" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															</svg>
 														</Link>
-														<img src="/assets/imgs/shop/shop-list/product2.png" alt="Carento" />
+														<img src="/assets/imgs/shop/shop-list/product2.png" alt="VING" />
 													</div>
 													<div className="card-info p-3 pt-30 border-top">
 														<div className="card-rating">
@@ -172,7 +172,7 @@ export default function ShopList() {
 																<div className="card-price">
 																	<h6 className="text-md-medium neutral-500 text-decoration-line-through">$68.53</h6>
 																</div>
-																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="Carento" /></Link>
+																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="VING" /></Link>
 															</div>
 															<div className="endtime">
 																<div className="card-price">
@@ -192,7 +192,7 @@ export default function ShopList() {
 																<path d="M17.071 10.1422L11.4141 15.7991C10.6331 16.5801 9.36672 16.5801 8.58568 15.7991L2.92882 10.1422C0.9762 8.1896 0.9762 5.02378 2.92882 3.07116C4.88144 1.11853 8.04727 1.11853 9.99989 3.07116C11.9525 1.11853 15.1183 1.11853 17.071 3.07116C19.0236 5.02378 19.0236 8.1896 17.071 10.1422Z" stroke="#101010" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															</svg>
 														</Link>
-														<img src="/assets/imgs/shop/shop-list/product3.png" alt="Carento" />
+														<img src="/assets/imgs/shop/shop-list/product3.png" alt="VING" />
 													</div>
 													<div className="card-info p-3 pt-30 border-top">
 														<div className="card-rating">
@@ -212,7 +212,7 @@ export default function ShopList() {
 																<div className="card-price">
 																	<h6 className="text-md-medium neutral-500 text-decoration-line-through">$68.53</h6>
 																</div>
-																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="Carento" /></Link>
+																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="VING" /></Link>
 															</div>
 															<div className="endtime">
 																<div className="card-price">
@@ -232,7 +232,7 @@ export default function ShopList() {
 																<path d="M17.071 10.1422L11.4141 15.7991C10.6331 16.5801 9.36672 16.5801 8.58568 15.7991L2.92882 10.1422C0.9762 8.1896 0.9762 5.02378 2.92882 3.07116C4.88144 1.11853 8.04727 1.11853 9.99989 3.07116C11.9525 1.11853 15.1183 1.11853 17.071 3.07116C19.0236 5.02378 19.0236 8.1896 17.071 10.1422Z" stroke="#101010" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															</svg>
 														</Link>
-														<img src="/assets/imgs/shop/shop-list/product4.png" alt="Carento" />
+														<img src="/assets/imgs/shop/shop-list/product4.png" alt="VING" />
 													</div>
 													<div className="card-info p-3 pt-30 border-top">
 														<div className="card-rating">
@@ -241,7 +241,7 @@ export default function ShopList() {
 																<span className="rating text-xs-medium rounded-pill">4.9 5 <span className="text-xs-medium neutral-500">(672 reviews)</span></span>
 															</div>
 														</div>
-														<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/shop-details">Spyder® – Projector Headlight Misubisi 2024</Link></div>
+														<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/shop-details">SpyderÂ® â€“ Projector Headlight Misubisi 2024</Link></div>
 														<div className="card-program">
 															<ul className="list-style-disc ps-3 pe-4">
 																<li className="text-xs-medium neutral-1000">Mobil Delvac 1300 Super Heavy Duty Synthetic Blend</li>
@@ -252,7 +252,7 @@ export default function ShopList() {
 																<div className="card-price">
 																	<h6 className="text-md-medium neutral-500 text-decoration-line-through">$68.53</h6>
 																</div>
-																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="Carento" /></Link>
+																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="VING" /></Link>
 															</div>
 															<div className="endtime">
 																<div className="card-price">
@@ -272,7 +272,7 @@ export default function ShopList() {
 																<path d="M17.071 10.1422L11.4141 15.7991C10.6331 16.5801 9.36672 16.5801 8.58568 15.7991L2.92882 10.1422C0.9762 8.1896 0.9762 5.02378 2.92882 3.07116C4.88144 1.11853 8.04727 1.11853 9.99989 3.07116C11.9525 1.11853 15.1183 1.11853 17.071 3.07116C19.0236 5.02378 19.0236 8.1896 17.071 10.1422Z" stroke="#101010" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															</svg>
 														</Link>
-														<img src="/assets/imgs/shop/shop-list/product5.png" alt="Carento" />
+														<img src="/assets/imgs/shop/shop-list/product5.png" alt="VING" />
 													</div>
 													<div className="card-info p-3 pt-30 border-top">
 														<div className="card-rating">
@@ -281,7 +281,7 @@ export default function ShopList() {
 																<span className="rating text-xs-medium rounded-pill">4.9 5 <span className="text-xs-medium neutral-500">(672 reviews)</span></span>
 															</div>
 														</div>
-														<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/shop-details">HRE FlowForm® – FT01 Tarma Honda 2024</Link></div>
+														<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/shop-details">HRE FlowFormÂ® â€“ FT01 Tarma Honda 2024</Link></div>
 														<div className="card-program">
 															<ul className="list-style-disc ps-3 pe-4">
 																<li className="text-xs-medium neutral-1000">Mobil Delvac 1300 Super Heavy Duty Synthetic Blend</li>
@@ -292,7 +292,7 @@ export default function ShopList() {
 																<div className="card-price">
 																	<h6 className="text-md-medium neutral-500 text-decoration-line-through">$68.53</h6>
 																</div>
-																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="Carento" /></Link>
+																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="VING" /></Link>
 															</div>
 															<div className="endtime">
 																<div className="card-price">
@@ -312,7 +312,7 @@ export default function ShopList() {
 																<path d="M17.071 10.1422L11.4141 15.7991C10.6331 16.5801 9.36672 16.5801 8.58568 15.7991L2.92882 10.1422C0.9762 8.1896 0.9762 5.02378 2.92882 3.07116C4.88144 1.11853 8.04727 1.11853 9.99989 3.07116C11.9525 1.11853 15.1183 1.11853 17.071 3.07116C19.0236 5.02378 19.0236 8.1896 17.071 10.1422Z" stroke="#101010" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															</svg>
 														</Link>
-														<img src="/assets/imgs/shop/shop-list/product6.png" alt="Carento" />
+														<img src="/assets/imgs/shop/shop-list/product6.png" alt="VING" />
 													</div>
 													<div className="card-info p-3 pt-30 border-top">
 														<div className="card-rating">
@@ -321,7 +321,7 @@ export default function ShopList() {
 																<span className="rating text-xs-medium rounded-pill">4.9 5 <span className="text-xs-medium neutral-500">(672 reviews)</span></span>
 															</div>
 														</div>
-														<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/shop-details">Right Stuff® – Drilled and Slotted Brake Rotor</Link></div>
+														<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/shop-details">Right StuffÂ® â€“ Drilled and Slotted Brake Rotor</Link></div>
 														<div className="card-program">
 															<ul className="list-style-disc ps-3 pe-4">
 																<li className="text-xs-medium neutral-1000">Mobil Delvac 1300 Super Heavy Duty Synthetic Blend</li>
@@ -332,7 +332,7 @@ export default function ShopList() {
 																<div className="card-price">
 																	<h6 className="text-md-medium neutral-500 text-decoration-line-through">$68.53</h6>
 																</div>
-																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="Carento" /></Link>
+																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="VING" /></Link>
 															</div>
 															<div className="endtime">
 																<div className="card-price">
@@ -352,7 +352,7 @@ export default function ShopList() {
 																<path d="M17.071 10.1422L11.4141 15.7991C10.6331 16.5801 9.36672 16.5801 8.58568 15.7991L2.92882 10.1422C0.9762 8.1896 0.9762 5.02378 2.92882 3.07116C4.88144 1.11853 8.04727 1.11853 9.99989 3.07116C11.9525 1.11853 15.1183 1.11853 17.071 3.07116C19.0236 5.02378 19.0236 8.1896 17.071 10.1422Z" stroke="#101010" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															</svg>
 														</Link>
-														<img src="/assets/imgs/shop/shop-list/product7.png" alt="Carento" />
+														<img src="/assets/imgs/shop/shop-list/product7.png" alt="VING" />
 													</div>
 													<div className="card-info p-3 pt-30 border-top">
 														<div className="card-rating">
@@ -361,7 +361,7 @@ export default function ShopList() {
 																<span className="rating text-xs-medium rounded-pill">4.9 5 <span className="text-xs-medium neutral-500">(672 reviews)</span></span>
 															</div>
 														</div>
-														<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/shop-details">PIRELLI TIRES® – P4 FOUR SEASONS PLUS</Link></div>
+														<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/shop-details">PIRELLI TIRESÂ® â€“ P4 FOUR SEASONS PLUS</Link></div>
 														<div className="card-program">
 															<ul className="list-style-disc ps-3 pe-4">
 																<li className="text-xs-medium neutral-1000">Mobil Delvac 1300 Super Heavy Duty Synthetic Blend</li>
@@ -372,7 +372,7 @@ export default function ShopList() {
 																<div className="card-price">
 																	<h6 className="text-md-medium neutral-500 text-decoration-line-through">$68.53</h6>
 																</div>
-																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="Carento" /></Link>
+																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="VING" /></Link>
 															</div>
 															<div className="endtime">
 																<div className="card-price">
@@ -392,7 +392,7 @@ export default function ShopList() {
 																<path d="M17.071 10.1422L11.4141 15.7991C10.6331 16.5801 9.36672 16.5801 8.58568 15.7991L2.92882 10.1422C0.9762 8.1896 0.9762 5.02378 2.92882 3.07116C4.88144 1.11853 8.04727 1.11853 9.99989 3.07116C11.9525 1.11853 15.1183 1.11853 17.071 3.07116C19.0236 5.02378 19.0236 8.1896 17.071 10.1422Z" stroke="#101010" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															</svg>
 														</Link>
-														<img src="/assets/imgs/shop/shop-list/product8.png" alt="Carento" />
+														<img src="/assets/imgs/shop/shop-list/product8.png" alt="VING" />
 													</div>
 													<div className="card-info p-3 pt-30 border-top">
 														<div className="card-rating">
@@ -401,7 +401,7 @@ export default function ShopList() {
 																<span className="rating text-xs-medium rounded-pill">4.9 5 <span className="text-xs-medium neutral-500">(672 reviews)</span></span>
 															</div>
 														</div>
-														<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/shop-details">Lumen® – Custom Sealed Beam LED Headlights</Link></div>
+														<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/shop-details">LumenÂ® â€“ Custom Sealed Beam LED Headlights</Link></div>
 														<div className="card-program">
 															<ul className="list-style-disc ps-3 pe-4">
 																<li className="text-xs-medium neutral-1000">Mobil Delvac 1300 Super Heavy Duty Synthetic Blend</li>
@@ -412,7 +412,7 @@ export default function ShopList() {
 																<div className="card-price">
 																	<h6 className="text-md-medium neutral-500 text-decoration-line-through">$68.53</h6>
 																</div>
-																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="Carento" /></Link>
+																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="VING" /></Link>
 															</div>
 															<div className="endtime">
 																<div className="card-price">
@@ -432,7 +432,7 @@ export default function ShopList() {
 																<path d="M17.071 10.1422L11.4141 15.7991C10.6331 16.5801 9.36672 16.5801 8.58568 15.7991L2.92882 10.1422C0.9762 8.1896 0.9762 5.02378 2.92882 3.07116C4.88144 1.11853 8.04727 1.11853 9.99989 3.07116C11.9525 1.11853 15.1183 1.11853 17.071 3.07116C19.0236 5.02378 19.0236 8.1896 17.071 10.1422Z" stroke="#101010" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															</svg>
 														</Link>
-														<img src="/assets/imgs/shop/shop-list/product9.png" alt="Carento" />
+														<img src="/assets/imgs/shop/shop-list/product9.png" alt="VING" />
 													</div>
 													<div className="card-info p-3 pt-30 border-top">
 														<div className="card-rating">
@@ -452,7 +452,7 @@ export default function ShopList() {
 																<div className="card-price">
 																	<h6 className="text-md-medium neutral-500 text-decoration-line-through">$68.53</h6>
 																</div>
-																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="Carento" /></Link>
+																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="VING" /></Link>
 															</div>
 															<div className="endtime">
 																<div className="card-price">
@@ -472,7 +472,7 @@ export default function ShopList() {
 																<path d="M17.071 10.1422L11.4141 15.7991C10.6331 16.5801 9.36672 16.5801 8.58568 15.7991L2.92882 10.1422C0.9762 8.1896 0.9762 5.02378 2.92882 3.07116C4.88144 1.11853 8.04727 1.11853 9.99989 3.07116C11.9525 1.11853 15.1183 1.11853 17.071 3.07116C19.0236 5.02378 19.0236 8.1896 17.071 10.1422Z" stroke="#101010" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															</svg>
 														</Link>
-														<img src="/assets/imgs/shop/shop-list/product10.png" alt="Carento" />
+														<img src="/assets/imgs/shop/shop-list/product10.png" alt="VING" />
 													</div>
 													<div className="card-info p-3 pt-30 border-top">
 														<div className="card-rating">
@@ -481,7 +481,7 @@ export default function ShopList() {
 																<span className="rating text-xs-medium rounded-pill">4.9 5 <span className="text-xs-medium neutral-500">(672 reviews)</span></span>
 															</div>
 														</div>
-														<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/shop-details">R1 Concepts® – eLINE Series Plain Brake Rotors</Link></div>
+														<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/shop-details">R1 ConceptsÂ® â€“ eLINE Series Plain Brake Rotors</Link></div>
 														<div className="card-program">
 															<ul className="list-style-disc ps-3 pe-4">
 																<li className="text-xs-medium neutral-1000">Mobil Delvac 1300 Super Heavy Duty Synthetic Blend</li>
@@ -492,7 +492,7 @@ export default function ShopList() {
 																<div className="card-price">
 																	<h6 className="text-md-medium neutral-500 text-decoration-line-through">$68.53</h6>
 																</div>
-																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="Carento" /></Link>
+																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="VING" /></Link>
 															</div>
 															<div className="endtime">
 																<div className="card-price">
@@ -512,47 +512,7 @@ export default function ShopList() {
 																<path d="M17.071 10.1422L11.4141 15.7991C10.6331 16.5801 9.36672 16.5801 8.58568 15.7991L2.92882 10.1422C0.9762 8.1896 0.9762 5.02378 2.92882 3.07116C4.88144 1.11853 8.04727 1.11853 9.99989 3.07116C11.9525 1.11853 15.1183 1.11853 17.071 3.07116C19.0236 5.02378 19.0236 8.1896 17.071 10.1422Z" stroke="#101010" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															</svg>
 														</Link>
-														<img src="/assets/imgs/shop/shop-list/product11.png" alt="Carento" />
-													</div>
-													<div className="card-info p-3 pt-30 border-top">
-														<div className="card-rating">
-															<div className="card-left" />
-															<div className="card-right">
-																<span className="rating text-xs-medium rounded-pill">4.9 5 <span className="text-xs-medium neutral-500">(672 reviews)</span></span>
-															</div>
-														</div>
-														<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/shop-details">Mobil Delvac 1300 Super Heavy Duty Synthetic Blend</Link></div>
-														<div className="card-program">
-															<ul className="list-style-disc ps-3 pe-4">
-																<li className="text-xs-medium neutral-1000">Mobil Delvac 1300 Super Heavy Duty Synthetic Blend</li>
-																<li className="text-xs-medium neutral-1000">Confident driving in all weather conditions</li>
-																<li className="text-xs-medium neutral-1000">Visual Alignment Indicators</li>
-															</ul>
-															<div className="endtime pt-3 mt-3 border-top">
-																<div className="card-price">
-																	<h6 className="text-md-medium neutral-500 text-decoration-line-through">$68.53</h6>
-																</div>
-																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="Carento" /></Link>
-															</div>
-															<div className="endtime">
-																<div className="card-price">
-																	<h6 className="text-lg-bold neutral-1000">$98.67</h6>
-																</div>
-																<div className="card-button"><Link className="btn btn-gray" href="/shop-details">Book Now</Link></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div className="col-lg-4 col-md-6">
-												<div className="card-journey-small background-card hover-up">
-													<div className="card-image">
-														<Link className="wish" href="#">
-															<svg width={20} height={18} viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path d="M17.071 10.1422L11.4141 15.7991C10.6331 16.5801 9.36672 16.5801 8.58568 15.7991L2.92882 10.1422C0.9762 8.1896 0.9762 5.02378 2.92882 3.07116C4.88144 1.11853 8.04727 1.11853 9.99989 3.07116C11.9525 1.11853 15.1183 1.11853 17.071 3.07116C19.0236 5.02378 19.0236 8.1896 17.071 10.1422Z" stroke="#101010" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-															</svg>
-														</Link>
-														<img src="/assets/imgs/shop/shop-list/product12.png" alt="Carento" />
+														<img src="/assets/imgs/shop/shop-list/product11.png" alt="VING" />
 													</div>
 													<div className="card-info p-3 pt-30 border-top">
 														<div className="card-rating">
@@ -572,7 +532,47 @@ export default function ShopList() {
 																<div className="card-price">
 																	<h6 className="text-md-medium neutral-500 text-decoration-line-through">$68.53</h6>
 																</div>
-																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="Carento" /></Link>
+																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="VING" /></Link>
+															</div>
+															<div className="endtime">
+																<div className="card-price">
+																	<h6 className="text-lg-bold neutral-1000">$98.67</h6>
+																</div>
+																<div className="card-button"><Link className="btn btn-gray" href="/shop-details">Book Now</Link></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div className="col-lg-4 col-md-6">
+												<div className="card-journey-small background-card hover-up">
+													<div className="card-image">
+														<Link className="wish" href="#">
+															<svg width={20} height={18} viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M17.071 10.1422L11.4141 15.7991C10.6331 16.5801 9.36672 16.5801 8.58568 15.7991L2.92882 10.1422C0.9762 8.1896 0.9762 5.02378 2.92882 3.07116C4.88144 1.11853 8.04727 1.11853 9.99989 3.07116C11.9525 1.11853 15.1183 1.11853 17.071 3.07116C19.0236 5.02378 19.0236 8.1896 17.071 10.1422Z" stroke="#101010" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+															</svg>
+														</Link>
+														<img src="/assets/imgs/shop/shop-list/product12.png" alt="VING" />
+													</div>
+													<div className="card-info p-3 pt-30 border-top">
+														<div className="card-rating">
+															<div className="card-left" />
+															<div className="card-right">
+																<span className="rating text-xs-medium rounded-pill">4.9 5 <span className="text-xs-medium neutral-500">(672 reviews)</span></span>
+															</div>
+														</div>
+														<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/shop-details">Mobil Delvac 1300 Super Heavy Duty Synthetic Blend</Link></div>
+														<div className="card-program">
+															<ul className="list-style-disc ps-3 pe-4">
+																<li className="text-xs-medium neutral-1000">Mobil Delvac 1300 Super Heavy Duty Synthetic Blend</li>
+																<li className="text-xs-medium neutral-1000">Confident driving in all weather conditions</li>
+																<li className="text-xs-medium neutral-1000">Visual Alignment Indicators</li>
+															</ul>
+															<div className="endtime pt-3 mt-3 border-top">
+																<div className="card-price">
+																	<h6 className="text-md-medium neutral-500 text-decoration-line-through">$68.53</h6>
+																</div>
+																<Link href="#" className="card-button pe-3"><img src="/assets/imgs/shop/shop-list/stock.png" alt="VING" /></Link>
 															</div>
 															<div className="endtime">
 																<div className="card-price">
@@ -640,7 +640,7 @@ export default function ShopList() {
 														<span className="text-sm-medium neutral-1000">Clear</span>
 													</Link>
 													<Link href="#" className="btn btn-primary px-3 py-2">
-														<img src="/assets/imgs/template/icons/user.svg" alt="Carento" />
+														<img src="/assets/imgs/template/icons/user.svg" alt="VING" />
 														Apply
 													</Link>
 												</div>
@@ -767,27 +767,27 @@ export default function ShopList() {
 													<ul className="list-filter-checkbox">
 														<li>
 															<label className="cb-container">
-																<input type="checkbox" /><span className="text-sm-medium"> <img src="/assets/imgs/template/icons/star-yellow.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="Carento" /></span><span className="checkmark" />
+																<input type="checkbox" /><span className="text-sm-medium"> <img src="/assets/imgs/template/icons/star-yellow.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="VING" /></span><span className="checkmark" />
 															</label>
 														</li>
 														<li>
 															<label className="cb-container">
-																<input type="checkbox" /><span className="text-sm-medium"> <img src="/assets/imgs/template/icons/star-yellow.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="Carento" /></span><span className="checkmark" />
+																<input type="checkbox" /><span className="text-sm-medium"> <img src="/assets/imgs/template/icons/star-yellow.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="VING" /></span><span className="checkmark" />
 															</label>
 														</li>
 														<li>
 															<label className="cb-container">
-																<input type="checkbox" /><span className="text-sm-medium"> <img src="/assets/imgs/template/icons/star-yellow.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="Carento" /></span><span className="checkmark" />
+																<input type="checkbox" /><span className="text-sm-medium"> <img src="/assets/imgs/template/icons/star-yellow.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="VING" /></span><span className="checkmark" />
 															</label>
 														</li>
 														<li>
 															<label className="cb-container">
-																<input type="checkbox" /><span className="text-sm-medium"> <img src="/assets/imgs/template/icons/star-yellow.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="Carento" /></span><span className="checkmark" />
+																<input type="checkbox" /><span className="text-sm-medium"> <img src="/assets/imgs/template/icons/star-yellow.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-yellow.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="VING" /></span><span className="checkmark" />
 															</label>
 														</li>
 														<li>
 															<label className="cb-container">
-																<input type="checkbox" /><span className="text-sm-medium"> <img src="/assets/imgs/template/icons/star-yellow.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="Carento" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="Carento" /></span><span className="checkmark" />
+																<input type="checkbox" /><span className="text-sm-medium"> <img src="/assets/imgs/template/icons/star-yellow.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="VING" /><img src="/assets/imgs/template/icons/star-grey.svg" alt="VING" /></span><span className="checkmark" />
 															</label>
 														</li>
 													</ul>
@@ -804,74 +804,74 @@ export default function ShopList() {
 									<ul className="carouselTicker__list">
 										<li className="carouselTicker__item">
 											<div className="item-brand">
-												<img className="light-mode" src="/assets/imgs/page/homepage2/lexus.png" alt="Carento" />
-												<img className="dark-mode" src="/assets/imgs/page/homepage2/lexus-w.png" alt="Carento" />
+												<img className="light-mode" src="/assets/imgs/page/homepage2/lexus.png" alt="VING" />
+												<img className="dark-mode" src="/assets/imgs/page/homepage2/lexus-w.png" alt="VING" />
 											</div>
 										</li>
 										<li className="carouselTicker__item">
 											<div className="item-brand">
-												<img className="light-mode" src="/assets/imgs/page/homepage2/mer.png" alt="Carento" />
-												<img className="dark-mode" src="/assets/imgs/page/homepage2/mer-w.png" alt="Carento" />
+												<img className="light-mode" src="/assets/imgs/page/homepage2/mer.png" alt="VING" />
+												<img className="dark-mode" src="/assets/imgs/page/homepage2/mer-w.png" alt="VING" />
 											</div>
 										</li>
 										<li className="carouselTicker__item">
 											<div className="item-brand">
-												<img className="light-mode" src="/assets/imgs/page/homepage2/bugatti.png" alt="Carento" />
-												<img className="dark-mode" src="/assets/imgs/page/homepage2/bugatti-w.png" alt="Carento" />
+												<img className="light-mode" src="/assets/imgs/page/homepage2/bugatti.png" alt="VING" />
+												<img className="dark-mode" src="/assets/imgs/page/homepage2/bugatti-w.png" alt="VING" />
 											</div>
 										</li>
 										<li className="carouselTicker__item">
 											<div className="item-brand">
-												<img className="light-mode" src="/assets/imgs/page/homepage2/jaguar.png" alt="Carento" />
-												<img className="dark-mode" src="/assets/imgs/page/homepage2/jaguar-w.png" alt="Carento" />
+												<img className="light-mode" src="/assets/imgs/page/homepage2/jaguar.png" alt="VING" />
+												<img className="dark-mode" src="/assets/imgs/page/homepage2/jaguar-w.png" alt="VING" />
 											</div>
 										</li>
 										<li className="carouselTicker__item">
 											<div className="item-brand">
-												<img className="light-mode" src="/assets/imgs/page/homepage2/honda.png" alt="Carento" />
-												<img className="dark-mode" src="/assets/imgs/page/homepage2/honda-w.png" alt="Carento" />
+												<img className="light-mode" src="/assets/imgs/page/homepage2/honda.png" alt="VING" />
+												<img className="dark-mode" src="/assets/imgs/page/homepage2/honda-w.png" alt="VING" />
 											</div>
 										</li>
 										<li className="carouselTicker__item">
 											<div className="item-brand">
-												<img className="light-mode" src="/assets/imgs/page/homepage2/chevrolet.png" alt="Carento" />
-												<img className="dark-mode" src="/assets/imgs/page/homepage2/chevrolet-w.png" alt="Carento" />
+												<img className="light-mode" src="/assets/imgs/page/homepage2/chevrolet.png" alt="VING" />
+												<img className="dark-mode" src="/assets/imgs/page/homepage2/chevrolet-w.png" alt="VING" />
 											</div>
 										</li>
 										<li className="carouselTicker__item">
 											<div className="item-brand">
-												<img className="light-mode" src="/assets/imgs/page/homepage2/acura.png" alt="Carento" />
-												<img className="dark-mode" src="/assets/imgs/page/homepage2/acura-w.png" alt="Carento" />
+												<img className="light-mode" src="/assets/imgs/page/homepage2/acura.png" alt="VING" />
+												<img className="dark-mode" src="/assets/imgs/page/homepage2/acura-w.png" alt="VING" />
 											</div>
 										</li>
 										<li className="carouselTicker__item">
 											<div className="item-brand">
-												<img className="light-mode" src="/assets/imgs/page/homepage2/bmw.png" alt="Carento" />
-												<img className="dark-mode" src="/assets/imgs/page/homepage2/bmw-w.png" alt="Carento" />
+												<img className="light-mode" src="/assets/imgs/page/homepage2/bmw.png" alt="VING" />
+												<img className="dark-mode" src="/assets/imgs/page/homepage2/bmw-w.png" alt="VING" />
 											</div>
 										</li>
 										<li className="carouselTicker__item">
 											<div className="item-brand">
-												<img className="light-mode" src="/assets/imgs/page/homepage2/toyota.png" alt="Carento" />
-												<img className="dark-mode" src="/assets/imgs/page/homepage2/toyota-w.png" alt="Carento" />
+												<img className="light-mode" src="/assets/imgs/page/homepage2/toyota.png" alt="VING" />
+												<img className="dark-mode" src="/assets/imgs/page/homepage2/toyota-w.png" alt="VING" />
 											</div>
 										</li>
 										<li className="carouselTicker__item">
 											<div className="item-brand">
-												<img className="light-mode" src="/assets/imgs/page/homepage2/lexus.png" alt="Carento" />
-												<img className="dark-mode" src="/assets/imgs/page/homepage2/lexus-w.png" alt="Carento" />
+												<img className="light-mode" src="/assets/imgs/page/homepage2/lexus.png" alt="VING" />
+												<img className="dark-mode" src="/assets/imgs/page/homepage2/lexus-w.png" alt="VING" />
 											</div>
 										</li>
 										<li className="carouselTicker__item">
 											<div className="item-brand">
-												<img className="light-mode" src="/assets/imgs/page/homepage2/mer.png" alt="Carento" />
-												<img className="dark-mode" src="/assets/imgs/page/homepage2/mer-w.png" alt="Carento" />
+												<img className="light-mode" src="/assets/imgs/page/homepage2/mer.png" alt="VING" />
+												<img className="dark-mode" src="/assets/imgs/page/homepage2/mer-w.png" alt="VING" />
 											</div>
 										</li>
 										<li className="carouselTicker__item">
 											<div className="item-brand">
-												<img className="light-mode" src="/assets/imgs/page/homepage2/bugatti.png" alt="Carento" />
-												<img className="dark-mode" src="/assets/imgs/page/homepage2/bugatti-w.png" alt="Carento" />
+												<img className="light-mode" src="/assets/imgs/page/homepage2/bugatti.png" alt="VING" />
+												<img className="dark-mode" src="/assets/imgs/page/homepage2/bugatti-w.png" alt="VING" />
 											</div>
 										</li>
 									</ul>

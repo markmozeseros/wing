@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import Link from "next/link";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
@@ -16,7 +16,7 @@ export default function Cta1() {
                             <div className="card-video">
                                 <div className="card-image">
                                     <a className="btn btn-play popup-youtube" onClick={() => setOpen(true)} />
-                                    <img src="/assets/imgs/cta/cta-1/video.png" alt="Carento" />
+                                    <img src="/assets/imgs/cta/cta-1/video.png" alt="VING" />
                                 </div>
                             </div>
                         </div>
@@ -36,18 +36,21 @@ export default function Cta1() {
                                         <li className="neutral-1000 wow fadeInUp" data-wow-delay="0.3s">
                                             {t("cta1.bullet3")}
                                         </li>
+                                        <li className="neutral-1000 wow fadeInUp" data-wow-delay="0.4s">
+                                            {t("cta1.bullet4")}
+                                        </li>
                                     </ul>
                                 </div>
                                 <div className="col-md-6">
                                     <ul className="list-ticks-green wow fadeInUp">
                                         <li className="neutral-1000 wow fadeInUp" data-wow-delay="0.1s">
-                                            {t("cta1.bullet4")}
-                                        </li>
-                                        <li className="neutral-1000 wow fadeInUp" data-wow-delay="0.2s">
                                             {t("cta1.bullet5")}
                                         </li>
-                                        <li className="neutral-1000 wow fadeInUp" data-wow-delay="0.3s">
+                                        <li className="neutral-1000 wow fadeInUp" data-wow-delay="0.2s">
                                             {t("cta1.bullet6")}
+                                        </li>
+                                        <li className="neutral-1000 wow fadeInUp" data-wow-delay="0.3s">
+                                            {t("cta1.bullet7")}
                                         </li>
                                     </ul>
                                 </div>
@@ -60,3 +63,4 @@ export default function Cta1() {
         </>
     );
 }
+

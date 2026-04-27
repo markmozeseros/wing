@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import Link from "next/link";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
@@ -9,7 +9,7 @@ export default function CarReview1() {
     const { t } = useLanguage();
     return (
         <>
-            <section className="section-box box-picked background-body">
+            <section className="section-box box-picked background-body pt-96">
                 <div className="container">
                     <div className="row align-items-end">
                         <div className="col-md-9 mb-30 wow fadeInUp">
@@ -36,7 +36,7 @@ export default function CarReview1() {
                                         <a className="btn btn-play popup-youtube" onClick={() => setOpen(true)}>
                                             {" "}
                                         </a>
-                                        <img className="mr-10" src="/assets/imgs/car-review/car-review-1/img-video-1.png" alt="Carento" />
+                                        <img className="mr-10" src="/assets/imgs/car-review/car-review-1/img-video-1.png" alt="VING" />
                                     </div>
                                     <div className="card-info">
                                         <h4 className="text-white">Farewell, BMW M2: will this be the last M car of its kind</h4>
@@ -51,7 +51,7 @@ export default function CarReview1() {
                                             <a className="btn-play-sm popup-youtube" onClick={() => setOpen(true)}>
                                                 {" "}
                                             </a>
-                                            <img className="mr-10" src="/assets/imgs/car-review/car-review-1/img-video-2.png" alt="Carento" />
+                                            <img className="mr-10" src="/assets/imgs/car-review/car-review-1/img-video-2.png" alt="VING" />
                                         </div>
                                         <div className="item-info">
                                             <Link className="heading-6" href="/cars-details-1">
@@ -65,7 +65,7 @@ export default function CarReview1() {
                                             <a className="btn-play-sm popup-youtube" onClick={() => setOpen(true)}>
                                                 {" "}
                                             </a>
-                                            <img className="mr-10" src="/assets/imgs/car-review/car-review-1/img-video-3.png" alt="Carento" />
+                                            <img className="mr-10" src="/assets/imgs/car-review/car-review-1/img-video-3.png" alt="VING" />
                                         </div>
                                         <div className="item-info">
                                             <Link className="heading-6" href="/cars-details-1">
@@ -79,7 +79,7 @@ export default function CarReview1() {
                                             <a className="btn-play-sm popup-youtube" onClick={() => setOpen(true)}>
                                                 {" "}
                                             </a>
-                                            <img className="mr-10" src="/assets/imgs/car-review/car-review-1/img-video-4.png" alt="Carento" />
+                                            <img className="mr-10" src="/assets/imgs/car-review/car-review-1/img-video-4.png" alt="VING" />
                                         </div>
                                         <div className="item-info">
                                             <Link className="heading-6" href="/cars-details-1">
@@ -98,3 +98,4 @@ export default function CarReview1() {
         </>
     );
 }
+

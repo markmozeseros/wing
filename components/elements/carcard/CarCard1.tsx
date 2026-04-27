@@ -1,4 +1,4 @@
-import Link from 'next/link'
+﻿import Link from 'next/link'
 
 export default function CarCard1({ car }: any) {
 	return (
@@ -6,7 +6,7 @@ export default function CarCard1({ car }: any) {
 			<div className="card-journey-small background-card hover-up">
 					<div className="card-image">
 						<Link href="/cars-details-1">
-							<img src={`/assets/imgs/cars-listing/cars-listing-6/${car.image}`} alt="Carento" />
+							<img src={`/assets/imgs/cars-listing/cars-listing-6/${car.image}`} alt="VING" />
 						</Link>
 					</div>
 					<div className="card-info p-4 pt-30">
@@ -40,3 +40,4 @@ export default function CarCard1({ car }: any) {
 		</>
 	)
 }
+

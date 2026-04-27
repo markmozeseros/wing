@@ -1,4 +1,4 @@
-
+﻿
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function BlogList() {
@@ -14,7 +14,7 @@ export default function BlogList() {
 								<div className="background-body px-3 py-2 rounded-12 border d-flex gap-3 d-inline-flex">
 									<Link href="/" className="neutral-700 text-md-medium">Home</Link>
 									<span>
-										<img src="/assets/imgs/template/icons/arrow-right.svg" alt="Carento" />
+										<img src="/assets/imgs/template/icons/arrow-right.svg" alt="VING" />
 									</span>
 									<Link href="#" className="neutral-1000 text-md-bold">Blog</Link>
 								</div>
@@ -23,14 +23,14 @@ export default function BlogList() {
 							<div className="row">
 								<div className="col-lg-7">
 									<div className="card-blog">
-										<div className="card-image"><img src="/assets/imgs/blog/blog-list/img-1.png" alt="carento" /></div>
+										<div className="card-image"><img src="/assets/imgs/blog/blog-list/img-1.png" alt="ving" /></div>
 										<div className="card-info">
 											<div className="card-info-blog">
 												<Link className="btn btn-label-tag" href="#">Car Rental Tips</Link>
 												<Link className="card-title heading-5" href="/blog-details">How to Get the Most Out of Your Rental Car Experience</Link>
 												<div className="card-meta-user">
 													<div className="box-author-small">
-														<img src="/assets/imgs/page/homepage1/avatar.png" alt="Carento" />
+														<img src="/assets/imgs/page/homepage1/avatar.png" alt="VING" />
 														<p className="text-sm-bold">By Jimmy Dave</p>
 													</div>
 													<div className="date-post">
@@ -46,7 +46,7 @@ export default function BlogList() {
 										<li>
 											<div className="card-post">
 												<div className="card-image">
-													<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/img-2.png" alt="carento" /></Link>
+													<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/img-2.png" alt="ving" /></Link>
 												</div>
 												<div className="card-info">
 													<Link className="text-xl-bold neutral-1000" href="/blog-details">How to Choose the Right Rental Car for Your Needs</Link>
@@ -60,7 +60,7 @@ export default function BlogList() {
 										<li>
 											<div className="card-post">
 												<div className="card-image">
-													<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/img-3.png" alt="carento" /></Link>
+													<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/img-3.png" alt="ving" /></Link>
 												</div>
 												<div className="card-info">
 													<Link className="text-xl-bold neutral-1000" href="/blog-details">The Top 5 Luxury Cars to Rent for Special Occasions</Link>
@@ -74,7 +74,7 @@ export default function BlogList() {
 										<li>
 											<div className="card-post">
 												<div className="card-image">
-													<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/img-4.png" alt="carento" /></Link>
+													<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/img-4.png" alt="ving" /></Link>
 												</div>
 												<div className="card-info">
 													<Link className="text-xl-bold neutral-1000" href="/blog-details">Exploring the Countryside: Best Cars for Scenic Drives</Link>
@@ -88,7 +88,7 @@ export default function BlogList() {
 										<li>
 											<div className="card-post">
 												<div className="card-image">
-													<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/img-5.png" alt="carento" /></Link>
+													<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/img-5.png" alt="ving" /></Link>
 												</div>
 												<div className="card-info">
 													<Link className="text-xl-bold neutral-1000" href="/blog-details">What to Know Before Renting a Car Abroad</Link>
@@ -124,7 +124,7 @@ export default function BlogList() {
 											<div className="box-grid-hotels box-grid-news mt-60 mb-50 wow fadeIn">
 												<div className="card-flight card-news background-card">
 													<div className="card-image">
-														<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/news.png" alt="Carento" /></Link>
+														<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/news.png" alt="VING" /></Link>
 													</div>
 													<div className="card-info">
 														<Link className="btn btn-label-tag background-3" href="#">Adventure</Link>
@@ -142,7 +142,7 @@ export default function BlogList() {
 												</div>
 												<div className="card-flight card-news background-card">
 													<div className="card-image">
-														<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/news2.png" alt="Carento" /></Link>
+														<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/news2.png" alt="VING" /></Link>
 													</div>
 													<div className="card-info">
 														<Link className="btn btn-label-tag background-1" href="#">Luxury</Link>
@@ -160,7 +160,7 @@ export default function BlogList() {
 												</div>
 												<div className="card-flight card-news background-card">
 													<div className="card-image">
-														<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/news3.png" alt="Carento" /></Link>
+														<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/news3.png" alt="VING" /></Link>
 													</div>
 													<div className="card-info">
 														<Link className="btn btn-label-tag background-2" href="#">Wanderlust</Link>
@@ -178,7 +178,7 @@ export default function BlogList() {
 												</div>
 												<div className="card-flight card-news background-card">
 													<div className="card-image">
-														<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/news4.png" alt="Carento" /></Link>
+														<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/news4.png" alt="VING" /></Link>
 													</div>
 													<div className="card-info">
 														<Link className="btn btn-label-tag background-4" href="#">Heritage</Link>
@@ -240,7 +240,7 @@ export default function BlogList() {
 														<li>
 															<div className="card-post">
 																<div className="card-image">
-																	<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/trending.png" alt="Carento" /></Link>
+																	<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/trending.png" alt="VING" /></Link>
 																</div>
 																<div className="card-info">
 																	<Link className="text-md-bold neutral-1000" href="/blog-details">How to Choose the Best Insurance for Your Rental Car</Link>
@@ -251,7 +251,7 @@ export default function BlogList() {
 														<li>
 															<div className="card-post">
 																<div className="card-image">
-																	<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/trending1.png" alt="Carento" /></Link>
+																	<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/trending1.png" alt="VING" /></Link>
 																</div>
 																<div className="card-info">
 																	<Link className="text-md-bold neutral-1000" href="/blog-details">The Advantages of Renting a Car for Business Travel</Link>
@@ -262,7 +262,7 @@ export default function BlogList() {
 														<li>
 															<div className="card-post">
 																<div className="card-image">
-																	<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/trending2.png" alt="Carento" /></Link>
+																	<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/trending2.png" alt="VING" /></Link>
 																</div>
 																<div className="card-info">
 																	<Link className="text-md-bold neutral-1000" href="/blog-details">Why Renting a Car Is Ideal for Exploring National Parks</Link>
@@ -273,7 +273,7 @@ export default function BlogList() {
 														<li>
 															<div className="card-post">
 																<div className="card-image">
-																	<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/trending3.png" alt="Carento" /></Link>
+																	<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/trending3.png" alt="VING" /></Link>
 																</div>
 																<div className="card-info">
 																	<Link className="text-md-bold neutral-1000" href="/blog-details">How to Extend Your Car Rental Without Hassle</Link>
@@ -284,7 +284,7 @@ export default function BlogList() {
 														<li>
 															<div className="card-post">
 																<div className="card-image">
-																	<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/trending4.png" alt="Carento" /></Link>
+																	<Link href="/blog-details"><img src="/assets/imgs/blog/blog-list/trending4.png" alt="VING" /></Link>
 																</div>
 																<div className="card-info">
 																	<Link className="text-md-bold neutral-1000" href="/blog-details">The Ultimate Checklist for Returning Your Rental Car</Link>
@@ -302,37 +302,37 @@ export default function BlogList() {
 												<div className="box-content-sidebar">
 													<ul className="list-photo-col-3">
 														<li>
-															<Link href="#"><img src="/assets/imgs/blog/blog-list/cat.png" alt="Carento" /></Link>
+															<Link href="#"><img src="/assets/imgs/blog/blog-list/cat.png" alt="VING" /></Link>
 														</li>
 														<li>
-															<Link href="#"><img src="/assets/imgs/blog/blog-list/cat2.png" alt="Carento" /></Link>
+															<Link href="#"><img src="/assets/imgs/blog/blog-list/cat2.png" alt="VING" /></Link>
 														</li>
 														<li>
-															<Link href="#"><img src="/assets/imgs/blog/blog-list/cat3.png" alt="Carento" /></Link>
+															<Link href="#"><img src="/assets/imgs/blog/blog-list/cat3.png" alt="VING" /></Link>
 														</li>
 														<li>
-															<Link href="#"><img src="/assets/imgs/blog/blog-list/cat4.png" alt="Carento" /></Link>
+															<Link href="#"><img src="/assets/imgs/blog/blog-list/cat4.png" alt="VING" /></Link>
 														</li>
 														<li>
-															<Link href="#"><img src="/assets/imgs/blog/blog-list/cat5.png" alt="Carento" /></Link>
+															<Link href="#"><img src="/assets/imgs/blog/blog-list/cat5.png" alt="VING" /></Link>
 														</li>
 														<li>
-															<Link href="#"><img src="/assets/imgs/blog/blog-list/cat6.png" alt="Carento" /></Link>
+															<Link href="#"><img src="/assets/imgs/blog/blog-list/cat6.png" alt="VING" /></Link>
 														</li>
 														<li>
-															<Link href="#"><img src="/assets/imgs/blog/blog-list/cat7.png" alt="Carento" /></Link>
+															<Link href="#"><img src="/assets/imgs/blog/blog-list/cat7.png" alt="VING" /></Link>
 														</li>
 														<li>
-															<Link href="#"><img src="/assets/imgs/blog/blog-list/cat8.png" alt="Carento" /></Link>
+															<Link href="#"><img src="/assets/imgs/blog/blog-list/cat8.png" alt="VING" /></Link>
 														</li>
 														<li>
-															<Link href="#"><img src="/assets/imgs/blog/blog-list/cat.png" alt="Carento" /></Link>
+															<Link href="#"><img src="/assets/imgs/blog/blog-list/cat.png" alt="VING" /></Link>
 														</li>
 													</ul>
 												</div>
 											</div>
 											<div className="sidebar-banner">
-												<Link href="#"><img className="rounded-3 w-100" src="/assets/imgs/blog/blog-list/banner-ads.png" alt="Carento" /></Link>
+												<Link href="#"><img className="rounded-3 w-100" src="/assets/imgs/blog/blog-list/banner-ads.png" alt="VING" /></Link>
 											</div>
 										</div>
 									</div>

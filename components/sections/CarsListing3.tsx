@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link"
 import { swiperGroup2 } from '@/util/swiperOptions'
@@ -66,7 +66,7 @@ export default function CarsListing3() {
 										<div className="card-journey-small card-journey-small-listing-3 background-0 d-flex flex-md-row flex-column align-items-center mw-100 position-relative">
 											<div className="card-image w-100">
 												<Link href="/cars-details-1">
-													<img src="/assets/imgs/cars-listing/cars-listing-3/car-1.png" alt="Carento" />
+													<img src="/assets/imgs/cars-listing/cars-listing-3/car-1.png" alt="VING" />
 												</Link>
 											</div>
 											<div className="card-info p-4 mt-0 position-relative end-0 h-100 w-lg-55 rounded-12">
@@ -96,7 +96,7 @@ export default function CarsListing3() {
 										<div className="card-journey-small card-journey-small-listing-3 background-0 d-flex flex-md-row flex-column align-items-center mw-100 position-relative">
 											<div className="card-image w-100">
 												<Link href="/cars-details-1">
-													<img src="/assets/imgs/cars-listing/cars-listing-3/car-2.png" alt="Carento" />
+													<img src="/assets/imgs/cars-listing/cars-listing-3/car-2.png" alt="VING" />
 												</Link>
 											</div>
 											<div className="card-info p-4 mt-0 position-relative end-0 h-100 w-lg-55 rounded-12">
@@ -126,7 +126,7 @@ export default function CarsListing3() {
 										<div className="card-journey-small card-journey-small-listing-3 background-0 d-flex flex-md-row flex-column align-items-center mw-100 position-relative">
 											<div className="card-image w-100">
 												<Link href="/cars-details-1">
-													<img src="/assets/imgs/cars-listing/cars-listing-3/car-3.png" alt="Carento" />
+													<img src="/assets/imgs/cars-listing/cars-listing-3/car-3.png" alt="VING" />
 												</Link>
 											</div>
 											<div className="card-info p-4 mt-0 position-relative end-0 h-100 w-lg-55 rounded-12">
@@ -158,7 +158,7 @@ export default function CarsListing3() {
 										<div className="card-journey-small card-journey-small-listing-3 background-0 d-flex flex-md-row flex-column align-items-center mw-100 position-relative">
 											<div className="card-image w-100">
 												<Link href="/cars-details-1">
-													<img src="/assets/imgs/cars-listing/cars-listing-3/car-4.png" alt="Carento" />
+													<img src="/assets/imgs/cars-listing/cars-listing-3/car-4.png" alt="VING" />
 												</Link>
 											</div>
 											<div className="card-info p-4 mt-0 position-relative end-0 h-100 w-lg-55 rounded-12">
@@ -188,7 +188,7 @@ export default function CarsListing3() {
 										<div className="card-journey-small card-journey-small-listing-3 background-0 d-flex flex-md-row flex-column align-items-center mw-100 position-relative">
 											<div className="card-image w-100">
 												<Link href="/cars-details-1">
-													<img src="/assets/imgs/cars-listing/cars-listing-3/car-5.png" alt="Carento" />
+													<img src="/assets/imgs/cars-listing/cars-listing-3/car-5.png" alt="VING" />
 												</Link>
 											</div>
 											<div className="card-info p-4 mt-0 position-relative end-0 h-100 w-lg-55 rounded-12">
@@ -218,7 +218,7 @@ export default function CarsListing3() {
 										<div className="card-journey-small card-journey-small-listing-3 background-0 d-flex flex-md-row flex-column align-items-center mw-100 position-relative">
 											<div className="card-image w-100">
 												<Link href="/cars-details-1">
-													<img src="/assets/imgs/cars-listing/cars-listing-3/car-6.png" alt="Carento" />
+													<img src="/assets/imgs/cars-listing/cars-listing-3/car-6.png" alt="VING" />
 												</Link>
 											</div>
 											<div className="card-info p-4 mt-0 position-relative end-0 h-100 w-lg-55 rounded-12">
@@ -250,7 +250,7 @@ export default function CarsListing3() {
 										<div className="card-journey-small card-journey-small-listing-3 background-0 d-flex flex-md-row flex-column align-items-center mw-100 position-relative">
 											<div className="card-image w-100">
 												<Link href="/cars-details-1">
-													<img src="/assets/imgs/cars-listing/cars-listing-3/car-1.png" alt="Carento" />
+													<img src="/assets/imgs/cars-listing/cars-listing-3/car-1.png" alt="VING" />
 												</Link>
 											</div>
 											<div className="card-info p-4 mt-0 position-relative end-0 h-100 w-lg-55 rounded-12">
@@ -280,7 +280,7 @@ export default function CarsListing3() {
 										<div className="card-journey-small card-journey-small-listing-3 background-0 d-flex flex-md-row flex-column align-items-center mw-100 position-relative">
 											<div className="card-image w-100">
 												<Link href="/cars-details-1">
-													<img src="/assets/imgs/cars-listing/cars-listing-3/car-2.png" alt="Carento" />
+													<img src="/assets/imgs/cars-listing/cars-listing-3/car-2.png" alt="VING" />
 												</Link>
 											</div>
 											<div className="card-info p-4 mt-0 position-relative end-0 h-100 w-lg-55 rounded-12">
@@ -310,7 +310,7 @@ export default function CarsListing3() {
 										<div className="card-journey-small card-journey-small-listing-3 background-0 d-flex flex-md-row flex-column align-items-center mw-100 position-relative">
 											<div className="card-image w-100">
 												<Link href="/cars-details-1">
-													<img src="/assets/imgs/cars-listing/cars-listing-3/car-3.png" alt="Carento" />
+													<img src="/assets/imgs/cars-listing/cars-listing-3/car-3.png" alt="VING" />
 												</Link>
 											</div>
 											<div className="card-info p-4 mt-0 position-relative end-0 h-100 w-lg-55 rounded-12">
@@ -342,7 +342,7 @@ export default function CarsListing3() {
 										<div className="card-journey-small card-journey-small-listing-3 background-0 d-flex flex-md-row flex-column align-items-center mw-100 position-relative">
 											<div className="card-image w-100">
 												<Link href="/cars-details-1">
-													<img src="/assets/imgs/cars-listing/cars-listing-3/car-4.png" alt="Carento" />
+													<img src="/assets/imgs/cars-listing/cars-listing-3/car-4.png" alt="VING" />
 												</Link>
 											</div>
 											<div className="card-info p-4 mt-0 position-relative end-0 h-100 w-lg-55 rounded-12">
@@ -372,7 +372,7 @@ export default function CarsListing3() {
 										<div className="card-journey-small card-journey-small-listing-3 background-0 d-flex flex-md-row flex-column align-items-center mw-100 position-relative">
 											<div className="card-image w-100">
 												<Link href="/cars-details-1">
-													<img src="/assets/imgs/cars-listing/cars-listing-3/car-5.png" alt="Carento" />
+													<img src="/assets/imgs/cars-listing/cars-listing-3/car-5.png" alt="VING" />
 												</Link>
 											</div>
 											<div className="card-info p-4 mt-0 position-relative end-0 h-100 w-lg-55 rounded-12">
@@ -402,7 +402,7 @@ export default function CarsListing3() {
 										<div className="card-journey-small card-journey-small-listing-3 background-0 d-flex flex-md-row flex-column align-items-center mw-100 position-relative">
 											<div className="card-image w-100">
 												<Link href="/cars-details-1">
-													<img src="/assets/imgs/cars-listing/cars-listing-3/car-6.png" alt="Carento" />
+													<img src="/assets/imgs/cars-listing/cars-listing-3/car-6.png" alt="VING" />
 												</Link>
 											</div>
 											<div className="card-info p-4 mt-0 position-relative end-0 h-100 w-lg-55 rounded-12">
@@ -455,3 +455,4 @@ export default function CarsListing3() {
 		</>
 	)
 }
+

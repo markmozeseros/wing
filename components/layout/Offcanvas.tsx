@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export default function Offcanvas({ isOffcanvas, handleOffcanvas }: any) {
     return (
@@ -8,8 +8,8 @@ export default function Offcanvas({ isOffcanvas, handleOffcanvas }: any) {
                     <div className="sidebar-canvas-head">
                         <div className="sidebar-canvas-logo">
                             <Link className="d-flex" href="/">
-                                <img className="light-mode" alt="Carento" src="/assets/imgs/template/logo-d.svg" />
-                                <img className="dark-mode" alt="Carento" src="/assets/imgs/template/logo-w.svg" />
+                                <img className="light-mode" alt="VING" src="/assets/imgs/template/logo-d.svg" />
+                                <img className="dark-mode" alt="VING" src="/assets/imgs/template/logo-w.svg" />
                             </Link>
                         </div>
                         <div className="sidebar-canvas-lang">
@@ -63,7 +63,7 @@ export default function Offcanvas({ isOffcanvas, handleOffcanvas }: any) {
                             </div>
                             <a className="close-canvas" onClick={handleOffcanvas}>
                                 {" "}
-                                <img alt="Carento" src="/assets/imgs/template/icons/close.png" />
+                                <img alt="VING" src="/assets/imgs/template/icons/close.png" />
                             </a>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ export default function Offcanvas({ isOffcanvas, handleOffcanvas }: any) {
                         <div className="box-author-profile">
                             <div className="card-author">
                                 <div className="card-image">
-                                    <img src="/assets/imgs/page/homepage1/author2.png" alt="Carento" />
+                                    <img src="/assets/imgs/page/homepage1/author2.png" alt="VING" />
                                 </div>
                                 <div className="card-info">
                                     <p className="text-md-bold neutral-1000">Howdy, Steven</p>
@@ -88,12 +88,12 @@ export default function Offcanvas({ isOffcanvas, handleOffcanvas }: any) {
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="me-3 border rounded-3 overflow-hidden mw-65">
                                         <Link href="/shop-details">
-                                            <img src="/assets/imgs/shop/shop-details/other-item1.png" alt="Carento" />
+                                            <img src="/assets/imgs/shop/shop-details/other-item1.png" alt="VING" />
                                         </Link>
                                     </div>
                                     <div className="position-relative">
                                         <Link href="#" className="text-md-bold neutral-1000">
-                                            R1 Concepts® – eLINE Series Plain Brake Rotors
+                                            R1 ConceptsÂ® â€“ eLINE Series Plain Brake Rotors
                                         </Link>
                                         <p className="text-md-bold text-success">$20.00</p>
                                     </div>
@@ -101,12 +101,12 @@ export default function Offcanvas({ isOffcanvas, handleOffcanvas }: any) {
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="me-3 border rounded-3 overflow-hidden mw-65">
                                         <Link href="/shop-details">
-                                            <img src="/assets/imgs/shop/shop-details/other-item2.png" alt="Carento" />
+                                            <img src="/assets/imgs/shop/shop-details/other-item2.png" alt="VING" />
                                         </Link>
                                     </div>
                                     <div className="position-relative">
                                         <Link href="#" className="text-md-bold neutral-1000">
-                                            PIRELLI TIRES® – P4 FOUR SEASONS PLUS
+                                            PIRELLI TIRESÂ® â€“ P4 FOUR SEASONS PLUS
                                         </Link>
                                         <p className="text-md-bold text-success">$160.00</p>
                                     </div>
@@ -114,7 +114,7 @@ export default function Offcanvas({ isOffcanvas, handleOffcanvas }: any) {
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="me-3 border rounded-3 overflow-hidden mw-65">
                                         <Link href="/shop-details">
-                                            <img src="/assets/imgs/shop/shop-details/other-item3.png" alt="Carento" />
+                                            <img src="/assets/imgs/shop/shop-details/other-item3.png" alt="VING" />
                                         </Link>
                                     </div>
                                     <div className="position-relative">
@@ -127,12 +127,12 @@ export default function Offcanvas({ isOffcanvas, handleOffcanvas }: any) {
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="me-3 border rounded-3 overflow-hidden mw-65">
                                         <Link href="/shop-details">
-                                            <img src="/assets/imgs/shop/shop-details/other-item4.png" alt="Carento" />
+                                            <img src="/assets/imgs/shop/shop-details/other-item4.png" alt="VING" />
                                         </Link>
                                     </div>
                                     <div className="position-relative">
                                         <Link href="#" className="text-md-bold neutral-1000">
-                                            HRE FlowForm® – FT01 Tarma Honda 2024
+                                            HRE FlowFormÂ® â€“ FT01 Tarma Honda 2024
                                         </Link>
                                         <p className="text-md-bold text-success">$250.00</p>
                                     </div>
@@ -140,7 +140,7 @@ export default function Offcanvas({ isOffcanvas, handleOffcanvas }: any) {
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="me-3 border rounded-3 overflow-hidden mw-65">
                                         <Link href="/shop-details">
-                                            <img src="/assets/imgs/shop/shop-details/other-item5.png" alt="Carento" />
+                                            <img src="/assets/imgs/shop/shop-details/other-item5.png" alt="VING" />
                                         </Link>
                                     </div>
                                     <div className="position-relative">
@@ -160,7 +160,7 @@ export default function Offcanvas({ isOffcanvas, handleOffcanvas }: any) {
                                     Manchester, Kentucky 39495
                                 </p>
                                 <p className="hour-work-2 text-md-medium neutral-1000">Hours: 8:00 - 17:00, Mon - Sat</p>
-                                <p className="email-2 text-md-medium neutral-1000">support@carento.com</p>
+                                <p className="email-2 text-md-medium neutral-1000">support@ving.com</p>
                             </div>
                         </div>
                     </div>
@@ -170,3 +170,4 @@ export default function Offcanvas({ isOffcanvas, handleOffcanvas }: any) {
         </>
     );
 }
+

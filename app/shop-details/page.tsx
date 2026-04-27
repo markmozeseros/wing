@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import QuantityControl from "@/components/elements/QuantityControl";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
@@ -104,25 +104,25 @@ export default function ShopDetails() {
                                         <div className="box-banner-activities border rounded-3 overflow-hidden">
                                             <Slider {...settingsMain} asNavFor={nav2 as any} ref={(slider) => setSlider1(slider as any)} className="banner-activities-detail">
                                                 <div className="banner-slide-activity">
-                                                    <img src="/assets/imgs/shop/shop-details/img-1.png" alt="Carento" />
+                                                    <img src="/assets/imgs/shop/shop-details/img-1.png" alt="VING" />
                                                 </div>
                                                 <div className="banner-slide-activity">
-                                                    <img src="/assets/imgs/shop/shop-details/img-1.png" alt="Carento" />
+                                                    <img src="/assets/imgs/shop/shop-details/img-1.png" alt="VING" />
                                                 </div>
                                                 <div className="banner-slide-activity">
-                                                    <img src="/assets/imgs/shop/shop-details/img-1.png" alt="Carento" />
+                                                    <img src="/assets/imgs/shop/shop-details/img-1.png" alt="VING" />
                                                 </div>
                                                 <div className="banner-slide-activity">
-                                                    <img src="/assets/imgs/shop/shop-details/img-1.png" alt="Carento" />
+                                                    <img src="/assets/imgs/shop/shop-details/img-1.png" alt="VING" />
                                                 </div>
                                                 <div className="banner-slide-activity">
-                                                    <img src="/assets/imgs/shop/shop-details/img-1.png" alt="Carento" />
+                                                    <img src="/assets/imgs/shop/shop-details/img-1.png" alt="VING" />
                                                 </div>
                                             </Slider>
                                             <div className="box-button-abs">
                                                 <a className="btn btn-white-md popup-youtube" onClick={() => setOpen(true)}>
                                                     {" "}
-                                                    <img src="/assets/imgs/page/activities/video.svg" alt="Carento" />
+                                                    <img src="/assets/imgs/page/activities/video.svg" alt="VING" />
                                                     Video Clips
                                                 </a>
                                             </div>
@@ -130,28 +130,28 @@ export default function ShopDetails() {
                                         <div className="slider-thumnail-activities">
                                             <Slider {...settingsThumbs} asNavFor={nav1 as any} ref={(slider) => setSlider2(slider as any)} className="slider-nav-thumbnails-activities-detail shop-thumb-nav">
                                                 <div className="banner-slide border p-0 mx-2 rounded-3">
-                                                    <img src="/assets/imgs/shop/shop-details/thumb-1.png" alt="Carento" />
+                                                    <img src="/assets/imgs/shop/shop-details/thumb-1.png" alt="VING" />
                                                 </div>
                                                 <div className="banner-slide border p-0 mx-2 rounded-3">
-                                                    <img src="/assets/imgs/shop/shop-details/thumb-2.png" alt="Carento" />
+                                                    <img src="/assets/imgs/shop/shop-details/thumb-2.png" alt="VING" />
                                                 </div>
                                                 <div className="banner-slide border p-0 mx-2 rounded-3">
-                                                    <img src="/assets/imgs/shop/shop-details/thumb-3.png" alt="Carento" />
+                                                    <img src="/assets/imgs/shop/shop-details/thumb-3.png" alt="VING" />
                                                 </div>
                                                 <div className="banner-slide border p-0 mx-2 rounded-3">
-                                                    <img src="/assets/imgs/shop/shop-details/thumb-4.png" alt="Carento" />
+                                                    <img src="/assets/imgs/shop/shop-details/thumb-4.png" alt="VING" />
                                                 </div>
                                                 <div className="banner-slide border p-0 mx-2 rounded-3">
-                                                    <img src="/assets/imgs/shop/shop-details/thumb-1.png" alt="Carento" />
+                                                    <img src="/assets/imgs/shop/shop-details/thumb-1.png" alt="VING" />
                                                 </div>
                                                 <div className="banner-slide border p-0 mx-2 rounded-3">
-                                                    <img src="/assets/imgs/shop/shop-details/thumb-2.png" alt="Carento" />
+                                                    <img src="/assets/imgs/shop/shop-details/thumb-2.png" alt="VING" />
                                                 </div>
                                                 <div className="banner-slide border p-0 mx-2 rounded-3">
-                                                    <img src="/assets/imgs/shop/shop-details/thumb-3.png" alt="Carento" />
+                                                    <img src="/assets/imgs/shop/shop-details/thumb-3.png" alt="VING" />
                                                 </div>
                                                 <div className="banner-slide border p-0 mx-2 rounded-3">
-                                                    <img src="/assets/imgs/shop/shop-details/thumb-4.png" alt="Carento" />
+                                                    <img src="/assets/imgs/shop/shop-details/thumb-4.png" alt="VING" />
                                                 </div>
                                             </Slider>
                                         </div>
@@ -171,7 +171,7 @@ export default function ShopDetails() {
                                                 SKU <span className="text-md-bold neutral-1000 ms-1 text-decoration-underline">LVA-4125</span>{" "}
                                             </Link>
                                             <Link href="#">
-                                                <img src="/assets/imgs/shop/shop-list/stock.png" alt="Carento" />
+                                                <img src="/assets/imgs/shop/shop-list/stock.png" alt="VING" />
                                             </Link>
                                         </div>
                                         <div className="tour-title-main">
@@ -243,7 +243,7 @@ export default function ShopDetails() {
                                             </button>
                                             <div className="collapse show" id="collapseOverview">
                                                 <div className="card card-body">
-                                                    <p>Introducing the epitome of modern sophistication in the realm of compact SUVs – the Seltos K3. Dressed in a captivating blue hue that exudes elegance and flair, this dynamic vehicle stands as a testament to innovation and style. With its sleek design accentuated by striking dark wheels, the Seltos K3 is not merely a mode of transportation but a statement of refined taste and contemporary living.</p>
+                                                    <p>Introducing the epitome of modern sophistication in the realm of compact SUVs â€“ the Seltos K3. Dressed in a captivating blue hue that exudes elegance and flair, this dynamic vehicle stands as a testament to innovation and style. With its sleek design accentuated by striking dark wheels, the Seltos K3 is not merely a mode of transportation but a statement of refined taste and contemporary living.</p>
                                                     <p>Prepare to embark on a journey where cutting-edge technology meets unparalleled comfort, all wrapped in a package of unparalleled aesthetics. Join us as we delve into the world of the Seltos K3, where every detail is crafted to elevate your driving experience to new heights.</p>
                                                 </div>
                                             </div>
@@ -319,11 +319,11 @@ export default function ShopDetails() {
                                                                 <h6 className="neutral-1000">4.95 / 5</h6>
                                                                 <p className="text-sm-medium neutral-400">(672 reviews)</p>
                                                                 <div className="review-rate">
-                                                                    <img src="/assets/imgs/page/tour-detail/star.svg" alt="Carento" />
-                                                                    <img src="/assets/imgs/page/tour-detail/star.svg" alt="Carento" />
-                                                                    <img src="/assets/imgs/page/tour-detail/star.svg" alt="Carento" />
-                                                                    <img src="/assets/imgs/page/tour-detail/star.svg" alt="Carento" />
-                                                                    <img src="/assets/imgs/page/tour-detail/star.svg" alt="Carento" />
+                                                                    <img src="/assets/imgs/page/tour-detail/star.svg" alt="VING" />
+                                                                    <img src="/assets/imgs/page/tour-detail/star.svg" alt="VING" />
+                                                                    <img src="/assets/imgs/page/tour-detail/star.svg" alt="VING" />
+                                                                    <img src="/assets/imgs/page/tour-detail/star.svg" alt="VING" />
+                                                                    <img src="/assets/imgs/page/tour-detail/star.svg" alt="VING" />
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -414,14 +414,14 @@ export default function ShopDetails() {
                                                         <div className="item-review">
                                                             <div className="head-review">
                                                                 <div className="author-review">
-                                                                    <img src="/assets/imgs/blog/blog-details/avatar-1.png" alt="Carento" />
+                                                                    <img src="/assets/imgs/blog/blog-details/avatar-1.png" alt="VING" />
                                                                     <div className="author-info">
                                                                         <p className="text-lg-bold">Sarah Johnson</p>
                                                                         <p className="text-sm-medium neutral-500">December 4, 2024 at 3:12 pm</p>
                                                                     </div>
                                                                 </div>
                                                                 <div className="rate-review">
-                                                                    <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="Carento" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="Carento" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="Carento" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="Carento" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="Carento" />
+                                                                    <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="VING" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="VING" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="VING" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="VING" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="VING" />
                                                                 </div>
                                                             </div>
                                                             <div className="content-review">
@@ -431,14 +431,14 @@ export default function ShopDetails() {
                                                         <div className="item-review">
                                                             <div className="head-review">
                                                                 <div className="author-review">
-                                                                    <img src="/assets/imgs/blog/blog-details/avatar-2.png" alt="Carento" />
+                                                                    <img src="/assets/imgs/blog/blog-details/avatar-2.png" alt="VING" />
                                                                     <div className="author-info">
                                                                         <p className="text-lg-bold">Michael Smith</p>
                                                                         <p className="text-sm-medium neutral-500">December 4, 2024 at 3:12 pm</p>
                                                                     </div>
                                                                 </div>
                                                                 <div className="rate-review">
-                                                                    <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="Carento" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="Carento" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="Carento" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="Carento" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="Carento" />
+                                                                    <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="VING" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="VING" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="VING" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="VING" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="VING" />
                                                                 </div>
                                                             </div>
                                                             <div className="content-review">
@@ -448,14 +448,14 @@ export default function ShopDetails() {
                                                         <div className="item-review">
                                                             <div className="head-review">
                                                                 <div className="author-review">
-                                                                    <img src="/assets/imgs/blog/blog-details/avatar-3.png" alt="Carento" />
+                                                                    <img src="/assets/imgs/blog/blog-details/avatar-3.png" alt="VING" />
                                                                     <div className="author-info">
                                                                         <p className="text-lg-bold">Emily Williams</p>
                                                                         <p className="text-sm-medium neutral-500">December 4, 2024 at 3:12 pm</p>
                                                                     </div>
                                                                 </div>
                                                                 <div className="rate-review">
-                                                                    <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="Carento" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="Carento" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="Carento" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="Carento" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="Carento" />
+                                                                    <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="VING" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="VING" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="VING" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="VING" /> <img className="background-brand-2 p-1" src="/assets/imgs/template/icons/star-white.svg" alt="VING" />
                                                                 </div>
                                                             </div>
                                                             <div className="content-review">
@@ -533,21 +533,21 @@ export default function ShopDetails() {
                                                                 <div className="box-type-review">
                                                                     <p className="text-sm-bold text-type-rv">Price</p>
                                                                     <p className="rate-type-review">
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
                                                                     </p>
                                                                 </div>
                                                                 <div className="box-type-review">
                                                                     <p className="text-sm-bold text-type-rv">Service</p>
                                                                     <p className="rate-type-review">
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
                                                                     </p>
                                                                 </div>
                                                             </div>
@@ -555,21 +555,21 @@ export default function ShopDetails() {
                                                                 <div className="box-type-review">
                                                                     <p className="text-sm-bold text-type-rv">Safety</p>
                                                                     <p className="rate-type-review">
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
                                                                     </p>
                                                                 </div>
                                                                 <div className="box-type-review">
                                                                     <p className="text-sm-bold text-type-rv">Entertainment</p>
                                                                     <p className="rate-type-review">
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
                                                                     </p>
                                                                 </div>
                                                             </div>
@@ -577,21 +577,21 @@ export default function ShopDetails() {
                                                                 <div className="box-type-review">
                                                                     <p className="text-sm-bold text-type-rv">Accessibility</p>
                                                                     <p className="rate-type-review">
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
                                                                     </p>
                                                                 </div>
                                                                 <div className="box-type-review">
                                                                     <p className="text-sm-bold text-type-rv">Support</p>
                                                                     <p className="rate-type-review">
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
-                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="Carento" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
+                                                                        <img src="/assets/imgs/page/tour-detail/star-big.svg" alt="VING" />
                                                                     </p>
                                                                 </div>
                                                             </div>
@@ -637,7 +637,7 @@ export default function ShopDetails() {
                                             <div className="box-agent-support border-bottom pb-3 mb-3">
                                                 <div className="card-author">
                                                     <div className="me-2">
-                                                        <img src="/assets/imgs/template/icons/car-1.png" alt="Carento" />
+                                                        <img src="/assets/imgs/template/icons/car-1.png" alt="VING" />
                                                     </div>
                                                     <div className="card-author-info">
                                                         <p className="text-lg-bold neutral-1000">Emily Rose</p>
@@ -675,12 +675,12 @@ export default function ShopDetails() {
                                             <div className="d-flex align-items-center mb-3">
                                                 <div className="me-3 border rounded-3 overflow-hidden">
                                                     <Link href="#">
-                                                        <img src="/assets/imgs/shop/shop-details/other-item1.png" alt="Carento" />
+                                                        <img src="/assets/imgs/shop/shop-details/other-item1.png" alt="VING" />
                                                     </Link>
                                                 </div>
                                                 <div className="position-relative">
                                                     <Link href="#" className="text-md-bold neutral-1000">
-                                                        R1 Concepts® – eLINE Series Plain Brake Rotors
+                                                        R1 ConceptsÂ® â€“ eLINE Series Plain Brake Rotors
                                                     </Link>
                                                     <p className="text-md-bold text-success">$20.00</p>
                                                 </div>
@@ -688,12 +688,12 @@ export default function ShopDetails() {
                                             <div className="d-flex align-items-center mb-3">
                                                 <div className="me-3 border rounded-3 overflow-hidden">
                                                     <Link href="#">
-                                                        <img src="/assets/imgs/shop/shop-details/other-item2.png" alt="Carento" />
+                                                        <img src="/assets/imgs/shop/shop-details/other-item2.png" alt="VING" />
                                                     </Link>
                                                 </div>
                                                 <div className="position-relative">
                                                     <Link href="#" className="text-md-bold neutral-1000">
-                                                        PIRELLI TIRES® – P4 FOUR SEASONS PLUS
+                                                        PIRELLI TIRESÂ® â€“ P4 FOUR SEASONS PLUS
                                                     </Link>
                                                     <p className="text-md-bold text-success">$160.00</p>
                                                 </div>
@@ -701,7 +701,7 @@ export default function ShopDetails() {
                                             <div className="d-flex align-items-center mb-3">
                                                 <div className="me-3 border rounded-3 overflow-hidden">
                                                     <Link href="#">
-                                                        <img src="/assets/imgs/shop/shop-details/other-item3.png" alt="Carento" />
+                                                        <img src="/assets/imgs/shop/shop-details/other-item3.png" alt="VING" />
                                                     </Link>
                                                 </div>
                                                 <div className="position-relative">
@@ -714,12 +714,12 @@ export default function ShopDetails() {
                                             <div className="d-flex align-items-center mb-3">
                                                 <div className="me-3 border rounded-3 overflow-hidden">
                                                     <Link href="#">
-                                                        <img src="/assets/imgs/shop/shop-details/other-item4.png" alt="Carento" />
+                                                        <img src="/assets/imgs/shop/shop-details/other-item4.png" alt="VING" />
                                                     </Link>
                                                 </div>
                                                 <div className="position-relative">
                                                     <Link href="#" className="text-md-bold neutral-1000">
-                                                        HRE FlowForm® – FT01 Tarma Honda 2024
+                                                        HRE FlowFormÂ® â€“ FT01 Tarma Honda 2024
                                                     </Link>
                                                     <p className="text-md-bold text-success">$250.00</p>
                                                 </div>
@@ -727,7 +727,7 @@ export default function ShopDetails() {
                                             <div className="d-flex align-items-center mb-3">
                                                 <div className="me-3 border rounded-3 overflow-hidden">
                                                     <Link href="#">
-                                                        <img src="/assets/imgs/shop/shop-details/other-item5.png" alt="Carento" />
+                                                        <img src="/assets/imgs/shop/shop-details/other-item5.png" alt="VING" />
                                                     </Link>
                                                 </div>
                                                 <div className="position-relative">
@@ -748,74 +748,74 @@ export default function ShopDetails() {
                                     <ul className="carouselTicker__list">
                                         <li className="carouselTicker__item">
                                             <div className="item-brand">
-                                                <img className="light-mode" src="/assets/imgs/page/homepage2/lexus.png" alt="Carento" />
-                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/lexus-w.png" alt="Carento" />
+                                                <img className="light-mode" src="/assets/imgs/page/homepage2/lexus.png" alt="VING" />
+                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/lexus-w.png" alt="VING" />
                                             </div>
                                         </li>
                                         <li className="carouselTicker__item">
                                             <div className="item-brand">
-                                                <img className="light-mode" src="/assets/imgs/page/homepage2/mer.png" alt="Carento" />
-                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/mer-w.png" alt="Carento" />
+                                                <img className="light-mode" src="/assets/imgs/page/homepage2/mer.png" alt="VING" />
+                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/mer-w.png" alt="VING" />
                                             </div>
                                         </li>
                                         <li className="carouselTicker__item">
                                             <div className="item-brand">
-                                                <img className="light-mode" src="/assets/imgs/page/homepage2/bugatti.png" alt="Carento" />
-                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/bugatti-w.png" alt="Carento" />
+                                                <img className="light-mode" src="/assets/imgs/page/homepage2/bugatti.png" alt="VING" />
+                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/bugatti-w.png" alt="VING" />
                                             </div>
                                         </li>
                                         <li className="carouselTicker__item">
                                             <div className="item-brand">
-                                                <img className="light-mode" src="/assets/imgs/page/homepage2/jaguar.png" alt="Carento" />
-                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/jaguar-w.png" alt="Carento" />
+                                                <img className="light-mode" src="/assets/imgs/page/homepage2/jaguar.png" alt="VING" />
+                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/jaguar-w.png" alt="VING" />
                                             </div>
                                         </li>
                                         <li className="carouselTicker__item">
                                             <div className="item-brand">
-                                                <img className="light-mode" src="/assets/imgs/page/homepage2/honda.png" alt="Carento" />
-                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/honda-w.png" alt="Carento" />
+                                                <img className="light-mode" src="/assets/imgs/page/homepage2/honda.png" alt="VING" />
+                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/honda-w.png" alt="VING" />
                                             </div>
                                         </li>
                                         <li className="carouselTicker__item">
                                             <div className="item-brand">
-                                                <img className="light-mode" src="/assets/imgs/page/homepage2/chevrolet.png" alt="Carento" />
-                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/chevrolet-w.png" alt="Carento" />
+                                                <img className="light-mode" src="/assets/imgs/page/homepage2/chevrolet.png" alt="VING" />
+                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/chevrolet-w.png" alt="VING" />
                                             </div>
                                         </li>
                                         <li className="carouselTicker__item">
                                             <div className="item-brand">
-                                                <img className="light-mode" src="/assets/imgs/page/homepage2/acura.png" alt="Carento" />
-                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/acura-w.png" alt="Carento" />
+                                                <img className="light-mode" src="/assets/imgs/page/homepage2/acura.png" alt="VING" />
+                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/acura-w.png" alt="VING" />
                                             </div>
                                         </li>
                                         <li className="carouselTicker__item">
                                             <div className="item-brand">
-                                                <img className="light-mode" src="/assets/imgs/page/homepage2/bmw.png" alt="Carento" />
-                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/bmw-w.png" alt="Carento" />
+                                                <img className="light-mode" src="/assets/imgs/page/homepage2/bmw.png" alt="VING" />
+                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/bmw-w.png" alt="VING" />
                                             </div>
                                         </li>
                                         <li className="carouselTicker__item">
                                             <div className="item-brand">
-                                                <img className="light-mode" src="/assets/imgs/page/homepage2/toyota.png" alt="Carento" />
-                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/toyota-w.png" alt="Carento" />
+                                                <img className="light-mode" src="/assets/imgs/page/homepage2/toyota.png" alt="VING" />
+                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/toyota-w.png" alt="VING" />
                                             </div>
                                         </li>
                                         <li className="carouselTicker__item">
                                             <div className="item-brand">
-                                                <img className="light-mode" src="/assets/imgs/page/homepage2/lexus.png" alt="Carento" />
-                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/lexus-w.png" alt="Carento" />
+                                                <img className="light-mode" src="/assets/imgs/page/homepage2/lexus.png" alt="VING" />
+                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/lexus-w.png" alt="VING" />
                                             </div>
                                         </li>
                                         <li className="carouselTicker__item">
                                             <div className="item-brand">
-                                                <img className="light-mode" src="/assets/imgs/page/homepage2/mer.png" alt="Carento" />
-                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/mer-w.png" alt="Carento" />
+                                                <img className="light-mode" src="/assets/imgs/page/homepage2/mer.png" alt="VING" />
+                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/mer-w.png" alt="VING" />
                                             </div>
                                         </li>
                                         <li className="carouselTicker__item">
                                             <div className="item-brand">
-                                                <img className="light-mode" src="/assets/imgs/page/homepage2/bugatti.png" alt="Carento" />
-                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/bugatti-w.png" alt="Carento" />
+                                                <img className="light-mode" src="/assets/imgs/page/homepage2/bugatti.png" alt="VING" />
+                                                <img className="dark-mode" src="/assets/imgs/page/homepage2/bugatti-w.png" alt="VING" />
                                             </div>
                                         </li>
                                     </ul>
@@ -829,3 +829,4 @@ export default function ShopDetails() {
         </>
     );
 }
+

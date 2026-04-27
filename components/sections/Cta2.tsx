@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import CounterUp from '../elements/CounterUp'
 import { useLanguage } from '@/util/LanguageContext'
@@ -121,7 +121,7 @@ export default function Cta2() {
 						<div className="col-lg-4 offset-lg-1 wow fadeIn">
 							<div className="box-authors-partner background-body wow fadeInUp p-4">
 								<div className="authors-partner-left">
-									<img src="/assets/imgs/page/homepage5/author.png" alt="Carento" /><img src="/assets/imgs/page/homepage5/author2.png" alt="Carento" /><img src="/assets/imgs/page/homepage5/author3.png" alt="Carento" />
+									<img src="/assets/imgs/page/homepage5/author.png" alt="VING" /><img src="/assets/imgs/page/homepage5/author2.png" alt="VING" /><img src="/assets/imgs/page/homepage5/author3.png" alt="VING" />
 									<span className="item-author">
 										<svg width={18} height={18} viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<rect x="0.5" y="7.448" width={17} height="2.31818" fill="black" />
@@ -130,7 +130,7 @@ export default function Cta2() {
 									</span>
 								</div>
 								<div className="authors-partner-right">
-									<p className="text-sm neutral-1000">1684 people used <strong>Carento </strong>in the last
+									<p className="text-sm neutral-1000">1684 people used <strong>VING </strong>in the last
 										<strong>24 hours</strong></p>
 								</div>
 							</div>
@@ -141,3 +141,4 @@ export default function Cta2() {
 		</>
 	)
 }
+

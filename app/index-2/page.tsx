@@ -1,6 +1,5 @@
 
 import Layout from "@/components/layout/Layout"
-import Blog2 from "@/components/sections/Blog2"
 import Brand2 from "@/components/sections/Brand2"
 import CarsListing3 from "@/components/sections/CarsListing3"
 import CarsListing4 from "@/components/sections/CarsListing4"
@@ -11,7 +10,6 @@ import Hero2 from "@/components/sections/Hero2"
 import Review2 from "@/components/sections/Review2"
 import Static1 from "@/components/sections/Static1"
 import Team1 from "@/components/sections/Team1"
-import Testimonials from "@/components/sections/Testimonials"
 import WhyUs1 from "@/components/sections/WhyUs1"
 export default function Index2() {
 
@@ -29,9 +27,7 @@ export default function Index2() {
 				<Brand2 />
 				<Team1 />
 				<Cta5 />
-				<Testimonials />
 				<WhyUs1 />
-				<Blog2 />
 			</Layout>
 		</>
 	)

@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import Link from 'next/link'
 import { useLanguage } from '@/util/LanguageContext'
@@ -28,8 +28,8 @@ export default function Footer1() {
 						<div className="col-md-3 col-sm-12 footer-1">
 							<div className="mt-20 mb-20">
 								<Link className="d-flex" href="/">
-									<img className="light-mode" alt="Carento" src="/assets/imgs/template/logo-w.svg" />
-									<img className="dark-mode" alt="Carento" src="/assets/imgs/template/logo-w.svg" />
+									<img className="light-mode" alt="VING" src="/assets/imgs/template/logo-w.svg" />
+									<img className="dark-mode" alt="VING" src="/assets/imgs/template/logo-w.svg" />
 								</Link>
 								<div className="box-info-contact mt-0">
 									<p className="text-md neutral-400 icon-address">{t('footer.address')}</p>
@@ -38,7 +38,7 @@ export default function Footer1() {
 								</div>
 								<div className="box-need-help">
 									<p className="need-help text-md-medium mb-5">{t('footer.needHelp')}</p>
-									<br /><Link className="heading-6 phone-support" href="/tel:+1 222-555-33-99">+1 222-555-33-99</Link>
+									<br /><Link className="heading-6 phone-support" href="tel:+36708025000">+36 70 802 5000</Link>
 								</div>
 							</div>
 						</div>
@@ -46,9 +46,6 @@ export default function Footer1() {
 							<h6 className="text-linear-3">{t('footer.companyTitle')}</h6>
 							<ul className="menu-footer">
 								<li><Link href="#">{t('footer.aboutUs')}</Link></li>
-								<li><Link href="#">{t('footer.ourAwards')}</Link></li>
-								<li><Link href="#">{t('footer.agencies')}</Link></li>
-								<li><Link href="#">{t('footer.copyrightNotices')}</Link></li>
 								<li><Link href="#">{t('footer.termsOfUse')}</Link></li>
 								<li><Link href="#">{t('footer.privacyNotice')}</Link></li>
 								<li><Link href="#">{t('footer.lostFound')}</Link></li>
@@ -58,11 +55,7 @@ export default function Footer1() {
 							<h6 className="text-linear-3">{t('footer.servicesTitle')}</h6>
 							<ul className="menu-footer">
 								<li><Link href="#">{t('footer.carRental')}</Link></li>
-								<li><Link href="#">{t('footer.vehicleLeasing')}</Link></li>
-								<li><Link href="#">{t('footer.longTermRental')}</Link></li>
-								<li><Link href="#">{t('footer.carSales')}</Link></li>
 								<li><Link href="#">{t('footer.luxuryRental')}</Link></li>
-								<li><Link href="#">{t('footer.rentToOwn')}</Link></li>
 								<li><Link href="#">{t('footer.fleetManagement')}</Link></li>
 							</ul>
 						</div>
@@ -70,22 +63,16 @@ export default function Footer1() {
 							<h6 className="text-linear-3">{t('footer.partnersTitle')}</h6>
 							<ul className="menu-footer">
 								<li><Link href="#">{t('footer.affiliates')}</Link></li>
-								<li><Link href="#">{t('footer.travelAgents')}</Link></li>
-								<li><Link href="#">{t('footer.aarp')}</Link></li>
-								<li><Link href="#">{t('footer.points')}</Link></li>
-								<li><Link href="#">{t('footer.military')}</Link></li>
-								<li><Link href="#">{t('footer.workWithUs')}</Link></li>
-								<li><Link href="#">{t('footer.advertise')}</Link></li>
+								<li><Link href="mailto:operation@hydrahorizon.com">{t('footer.workWithUs')}</Link></li>
+								<li><Link href="mailto:operation@hydrahorizon.com">{t('footer.advertise')}</Link></li>
 							</ul>
 						</div>
 						<div className="col-md-3 col-xs-6 footer-5">
 							<h6 className="text-linear-3">{t('footer.supportTitle')}</h6>
 							<ul className="menu-footer">
-								<li><Link href="#">{t('footer.forum')}</Link></li>
-								<li><Link href="#">{t('footer.helpCenter')}</Link></li>
+								<li><Link href="/faqs">{t('footer.helpCenter')}</Link></li>
 								<li><Link href="#">{t('footer.liveChat')}</Link></li>
-								<li><Link href="#">{t('footer.howItWorks')}</Link></li>
-								<li><Link href="#">{t('footer.security')}</Link></li>
+								<li><Link href="/faqs">{t('footer.howItWorks')}</Link></li>
 								<li><Link href="#">{t('footer.refund')}</Link></li>
 							</ul>
 						</div>
@@ -130,3 +117,4 @@ export default function Footer1() {
 		</>
 	)
 }
+

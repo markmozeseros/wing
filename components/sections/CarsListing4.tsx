@@ -1,4 +1,4 @@
-
+﻿
 import Link from "next/link"
 
 export default function CarsListing4() {
@@ -28,7 +28,7 @@ export default function CarsListing4() {
 							<div className="card-journey-small background-card hover-up">
 								<div className="card-image">
 									<Link href="/cars-details-2">
-										<img src="/assets/imgs/cars-listing/cars-listing-2/car-1.png" alt="Carento" />
+										<img src="/assets/imgs/cars-listing/cars-listing-2/car-1.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4 pt-30">
@@ -64,7 +64,7 @@ export default function CarsListing4() {
 							<div className="card-journey-small background-card hover-up">
 								<div className="card-image">
 									<Link href="/cars-details-2">
-										<img src="/assets/imgs/cars-listing/cars-listing-2/car-5.png" alt="Carento" />
+										<img src="/assets/imgs/cars-listing/cars-listing-2/car-5.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4 pt-30">
@@ -100,7 +100,7 @@ export default function CarsListing4() {
 							<div className="card-journey-small background-card hover-up">
 								<div className="card-image">
 									<Link href="/cars-details-2">
-										<img src="/assets/imgs/cars-listing/cars-listing-2/car-6.png" alt="Carento" />
+										<img src="/assets/imgs/cars-listing/cars-listing-2/car-6.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4 pt-30">
@@ -136,7 +136,7 @@ export default function CarsListing4() {
 							<div className="card-journey-small background-card hover-up">
 								<div className="card-image">
 									<Link href="/cars-details-2">
-										<img src="/assets/imgs/cars-listing/cars-listing-2/car-7.png" alt="Carento" />
+										<img src="/assets/imgs/cars-listing/cars-listing-2/car-7.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4 pt-30">
@@ -172,7 +172,7 @@ export default function CarsListing4() {
 							<div className="card-journey-small background-card hover-up">
 								<div className="card-image">
 									<Link href="/cars-details-2">
-										<img src="/assets/imgs/cars-listing/cars-listing-2/car-8.png" alt="Carento" />
+										<img src="/assets/imgs/cars-listing/cars-listing-2/car-8.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4 pt-30">
@@ -208,7 +208,7 @@ export default function CarsListing4() {
 							<div className="card-journey-small background-card hover-up">
 								<div className="card-image">
 									<Link href="/cars-details-2">
-										<img src="/assets/imgs/cars-listing/cars-listing-2/car-9.png" alt="Carento" />
+										<img src="/assets/imgs/cars-listing/cars-listing-2/car-9.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4 pt-30">
@@ -244,7 +244,7 @@ export default function CarsListing4() {
 							<div className="card-journey-small background-card hover-up">
 								<div className="card-image">
 									<Link href="/cars-details-2">
-										<img src="/assets/imgs/cars-listing/cars-listing-2/car-10.png" alt="Carento" />
+										<img src="/assets/imgs/cars-listing/cars-listing-2/car-10.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4 pt-30">
@@ -280,7 +280,7 @@ export default function CarsListing4() {
 							<div className="card-journey-small background-card hover-up">
 								<div className="card-image">
 									<Link href="/cars-details-2">
-										<img src="/assets/imgs/cars-listing/cars-listing-2/car-11.png" alt="Carento" />
+										<img src="/assets/imgs/cars-listing/cars-listing-2/car-11.png" alt="VING" />
 									</Link>
 								</div>
 								<div className="card-info p-4 pt-30">
@@ -318,3 +318,4 @@ export default function CarsListing4() {
 		</>
 	)
 }
+

@@ -1,11 +1,11 @@
-import Link from 'next/link'
+﻿import Link from 'next/link'
 
 export default function CarCard2({ car }: any) {
 	return (
 		<>
 			<div className="card-flight card-hotel card-property background-card border">
 				<div className="card-image">
-					<Link href="/cars-details-3"><img src={`/assets/imgs/cars-listing/cars-listing-6/${car.image}`} alt="Carento" /></Link>
+					<Link href="/cars-details-3"><img src={`/assets/imgs/cars-listing/cars-listing-6/${car.image}`} alt="VING" /></Link>
 				</div>
 				<div className="card-info p-md-40 p-3">
 					<label className="sale-lbl">-25%</label>
@@ -53,3 +53,4 @@ export default function CarCard2({ car }: any) {
 		</>
 	)
 }
+

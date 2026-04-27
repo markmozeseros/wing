@@ -1,4 +1,4 @@
-
+﻿
 'use client'
 
 import Link from "next/link"
@@ -15,7 +15,7 @@ export default function Banners() {
 						<div className="col-lg-6">
 							<div className="box-banner-1 background-6 px-5 pt-40 position-relative rounded-12 overflow-hidden">
 								<div className="banner-images wow fadeIn">
-									<img className="position-absolute bottom-0 end-0" src="/assets/imgs/banners/banners-1/img-1.png" alt="Carento" />
+									<img className="position-absolute bottom-0 end-0" src="/assets/imgs/banners/banners-1/img-1.png" alt="VING" />
 								</div>
 								<div className="banner-info">
 									<div className="banner-title wow fadeInDown">
@@ -36,7 +36,7 @@ export default function Banners() {
 						<div className="col-lg-6">
 							<div className="box-banner-1 background-5 px-5 pt-40 position-relative rounded-12 mt-lg-0 mt-4 overflow-hidden">
 								<div className="banner-images wow fadeIn">
-									<img className="position-absolute bottom-0 end-0" src="/assets/imgs/banners/banners-1/img-2.png" alt="Carento" />
+									<img className="position-absolute bottom-0 end-0" src="/assets/imgs/banners/banners-1/img-2.png" alt="VING" />
 								</div>
 								<div className="banner-info">
 									<div className="banner-title wow fadeInDown">
@@ -60,3 +60,4 @@ export default function Banners() {
 		</>
 	)
 }
+

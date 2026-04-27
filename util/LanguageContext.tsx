@@ -1,15 +1,13 @@
 'use client'
 import React, { createContext, useContext, useState } from 'react'
-import en, { TranslationKeys } from './translations/en'
+import en from './translations/en'
 import hu from './translations/hu'
+import { TranslationKeys } from './translations/hu'
 import de from './translations/de'
-import fr from './translations/fr'
-import it from './translations/it'
-import es from './translations/es'
 
-type Language = 'en' | 'hu' | 'de' | 'fr' | 'it' | 'es'
+type Language = 'en' | 'hu' | 'de'
 
-const translations: Record<Language, TranslationKeys> = { en, hu, de, fr, it, es }
+const translations: Record<Language, TranslationKeys> = { en, hu, de }
 
 interface LanguageContextType {
   lang: Language

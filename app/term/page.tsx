@@ -1,4 +1,4 @@
-
+﻿
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function Term() {
@@ -11,7 +11,7 @@ export default function Term() {
 					<div className="page-header pt-30 background-body">
 						<div className="custom-container position-relative mx-auto">
 							<div className="bg-overlay rounded-12 overflow-hidden">
-								<img className="w-100 h-100 rounded-12 img-banner" src="/assets/imgs/page-header/banner5.png" alt="Carento" />
+								<img className="w-100 h-100 rounded-12 img-banner" src="/assets/imgs/page-header/banner5.png" alt="VING" />
 							</div>
 							<div className="container position-absolute z-1 top-50 start-50 translate-middle">
 								<h2 className="text-white">Terms Of Service</h2>

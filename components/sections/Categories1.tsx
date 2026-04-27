@@ -1,4 +1,4 @@
-
+﻿
 'use client'
 
 import Link from "next/link"
@@ -32,7 +32,7 @@ export default function Categories1() {
 							<div className="col-lg-3 col-sm-6">
 								<div className="card-popular background-card hover-up wow fadeIn" data-wow-delay="0.1s">
 									<div className="card-image">
-										<Link className="card-title" href="/cars-list-1"><img src="/assets/imgs/categories/categories-1/car-1.png" alt="Carento" /></Link>
+										<Link className="card-title" href="/cars-list-1"><img src="/assets/imgs/categories/categories-1/car-1.png" alt="VING" /></Link>
 									</div>
 									<div className="card-info">
 										<Link className="card-title" href="/cars-list-1">SUV</Link>
@@ -52,7 +52,7 @@ export default function Categories1() {
 							<div className="col-lg-3 col-sm-6">
 								<div className="card-popular background-card hover-up wow fadeIn" data-wow-delay="0.2s">
 									<div className="card-image">
-										<Link className="card-title" href="/cars-list-1"><img src="/assets/imgs/categories/categories-1/car-2.png" alt="Carento" /></Link>
+										<Link className="card-title" href="/cars-list-1"><img src="/assets/imgs/categories/categories-1/car-2.png" alt="VING" /></Link>
 									</div>
 									<div className="card-info">
 										<Link className="card-title" href="/cars-list-1">Hatchback</Link>
@@ -72,7 +72,7 @@ export default function Categories1() {
 							<div className="col-lg-3 col-sm-6">
 								<div className="card-popular background-card hover-up wow fadeIn" data-wow-delay="0.3s">
 									<div className="card-image">
-										<Link className="card-title" href="/cars-list-1"><img src="/assets/imgs/categories/categories-1/car-3.png" alt="Carento" /></Link>
+										<Link className="card-title" href="/cars-list-1"><img src="/assets/imgs/categories/categories-1/car-3.png" alt="VING" /></Link>
 									</div>
 									<div className="card-info">
 										<Link className="card-title" href="/cars-list-1">Sedan</Link>
@@ -92,7 +92,7 @@ export default function Categories1() {
 							<div className="col-lg-3 col-sm-6">
 								<div className="card-popular background-card hover-up wow fadeIn" data-wow-delay="0.4s">
 									<div className="card-image">
-										<Link className="card-title" href="/cars-list-1"><img src="/assets/imgs/categories/categories-1/car-4.png" alt="Carento" /></Link>
+										<Link className="card-title" href="/cars-list-1"><img src="/assets/imgs/categories/categories-1/car-4.png" alt="VING" /></Link>
 									</div>
 									<div className="card-info">
 										<Link className="card-title" href="/cars-list-1">Crossover</Link>
@@ -112,7 +112,7 @@ export default function Categories1() {
 							<div className="col-lg-3 col-sm-6">
 								<div className="card-popular background-card hover-up wow fadeIn" data-wow-delay="0.1s">
 									<div className="card-image">
-										<Link className="card-title" href="/cars-list-1"><img src="/assets/imgs/categories/categories-1/car-5.png" alt="Carento" /></Link>
+										<Link className="card-title" href="/cars-list-1"><img src="/assets/imgs/categories/categories-1/car-5.png" alt="VING" /></Link>
 									</div>
 									<div className="card-info">
 										<Link className="card-title" href="/cars-list-1">Minivan</Link>
@@ -132,7 +132,7 @@ export default function Categories1() {
 							<div className="col-lg-3 col-sm-6">
 								<div className="card-popular background-card hover-up wow fadeIn" data-wow-delay="0.2s">
 									<div className="card-image">
-										<Link className="card-title" href="/cars-list-1"><img src="/assets/imgs/categories/categories-1/car-6.png" alt="Carento" /></Link>
+										<Link className="card-title" href="/cars-list-1"><img src="/assets/imgs/categories/categories-1/car-6.png" alt="VING" /></Link>
 									</div>
 									<div className="card-info">
 										<Link className="card-title" href="/cars-list-1">Coupe</Link>
@@ -152,7 +152,7 @@ export default function Categories1() {
 							<div className="col-lg-3 col-sm-6">
 								<div className="card-popular background-card hover-up wow fadeIn" data-wow-delay="0.3s">
 									<div className="card-image">
-										<Link className="card-title" href="/cars-list-1"><img src="/assets/imgs/categories/categories-1/car-7.png" alt="Carento" /></Link>
+										<Link className="card-title" href="/cars-list-1"><img src="/assets/imgs/categories/categories-1/car-7.png" alt="VING" /></Link>
 									</div>
 									<div className="card-info">
 										<Link className="card-title" href="/cars-list-1">Sport Cars</Link>
@@ -172,7 +172,7 @@ export default function Categories1() {
 							<div className="col-lg-3 col-sm-6">
 								<div className="card-popular background-card hover-up wow fadeIn" data-wow-delay="0.4s">
 									<div className="card-image">
-										<Link className="card-title" href="/cars-list-1"><img src="/assets/imgs/categories/categories-1/car-8.png" alt="Carento" /></Link>
+										<Link className="card-title" href="/cars-list-1"><img src="/assets/imgs/categories/categories-1/car-8.png" alt="VING" /></Link>
 									</div>
 									<div className="card-info">
 										<Link className="card-title" href="/cars-list-1">Pickup Truck</Link>
@@ -196,3 +196,4 @@ export default function Categories1() {
 		</>
 	)
 }
+

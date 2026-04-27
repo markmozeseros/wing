@@ -1,4 +1,4 @@
-
+﻿
 import CounterUp from '@/components/elements/CounterUp'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
@@ -12,7 +12,7 @@ export default function DealerListing() {
 					<div className="page-header pt-30 background-body">
 						<div className="custom-container position-relative mx-auto">
 							<div className="bg-overlay rounded-12 overflow-hidden">
-								<img className="w-100 h-100 img-banner" src="/assets/imgs/page-header/banner7.png" alt="Carento" />
+								<img className="w-100 h-100 img-banner" src="/assets/imgs/page-header/banner7.png" alt="VING" />
 							</div>
 							<div className="container position-absolute z-1 top-50 start-50 translate-middle">
 								<h2 className="text-white">Dealer Listing</h2>
@@ -21,7 +21,7 @@ export default function DealerListing() {
 							<div className="background-body position-absolute z-1 top-100 start-50 translate-middle px-3 py-2 rounded-12 border d-flex gap-3 d-none">
 								<Link href="/" className="neutral-700 text-md-medium">Home</Link>
 								<span>
-									<img src="/assets/imgs/template/icons/arrow-right.svg" alt="Carento" />
+									<img src="/assets/imgs/template/icons/arrow-right.svg" alt="VING" />
 								</span>
 								<Link href="#" className="neutral-1000 text-md-bold" />
 							</div>
@@ -51,7 +51,7 @@ export default function DealerListing() {
 									<div className="card-contact card-dealer d-flex">
 										<div className="card-image me-3">
 											<div className="position-relative">
-												<img src="/assets/imgs/dealer/dealer-listing/icon-1.svg" alt="Carento" />
+												<img src="/assets/imgs/dealer/dealer-listing/icon-1.svg" alt="VING" />
 											</div>
 										</div>
 										<div className="card-info">
@@ -71,7 +71,7 @@ export default function DealerListing() {
 									<div className="card-contact card-dealer d-flex">
 										<div className="card-image me-3">
 											<div className="position-relative">
-												<img src="/assets/imgs/dealer/dealer-listing/icon-2.svg" alt="Carento" />
+												<img src="/assets/imgs/dealer/dealer-listing/icon-2.svg" alt="VING" />
 											</div>
 										</div>
 										<div className="card-info">
@@ -91,7 +91,7 @@ export default function DealerListing() {
 									<div className="card-contact card-dealer d-flex">
 										<div className="card-image me-3">
 											<div className="position-relative">
-												<img src="/assets/imgs/dealer/dealer-listing/icon-3.svg" alt="Carento" />
+												<img src="/assets/imgs/dealer/dealer-listing/icon-3.svg" alt="VING" />
 											</div>
 										</div>
 										<div className="card-info">
@@ -111,7 +111,7 @@ export default function DealerListing() {
 									<div className="card-contact card-dealer d-flex">
 										<div className="card-image me-3">
 											<div className="position-relative">
-												<img src="/assets/imgs/dealer/dealer-listing/icon-4.svg" alt="Carento" />
+												<img src="/assets/imgs/dealer/dealer-listing/icon-4.svg" alt="VING" />
 											</div>
 										</div>
 										<div className="card-info">
@@ -132,7 +132,7 @@ export default function DealerListing() {
 									<div className="card-contact card-dealer d-flex">
 										<div className="card-image me-3">
 											<div className="position-relative">
-												<img src="/assets/imgs/dealer/dealer-listing/icon-5.svg" alt="Carento" />
+												<img src="/assets/imgs/dealer/dealer-listing/icon-5.svg" alt="VING" />
 											</div>
 										</div>
 										<div className="card-info">
@@ -152,7 +152,7 @@ export default function DealerListing() {
 									<div className="card-contact card-dealer d-flex">
 										<div className="card-image me-3">
 											<div className="position-relative">
-												<img src="/assets/imgs/dealer/dealer-listing/icon-6.svg" alt="Carento" />
+												<img src="/assets/imgs/dealer/dealer-listing/icon-6.svg" alt="VING" />
 											</div>
 										</div>
 										<div className="card-info">
@@ -173,7 +173,7 @@ export default function DealerListing() {
 									<div className="card-contact card-dealer d-flex">
 										<div className="card-image me-3">
 											<div className="position-relative">
-												<img src="/assets/imgs/dealer/dealer-listing/icon-7.svg" alt="Carento" />
+												<img src="/assets/imgs/dealer/dealer-listing/icon-7.svg" alt="VING" />
 											</div>
 										</div>
 										<div className="card-info">
@@ -194,7 +194,7 @@ export default function DealerListing() {
 									<div className="card-contact card-dealer d-flex">
 										<div className="card-image me-3">
 											<div className="position-relative">
-												<img src="/assets/imgs/dealer/dealer-listing/icon-8.svg" alt="Carento" />
+												<img src="/assets/imgs/dealer/dealer-listing/icon-8.svg" alt="VING" />
 											</div>
 										</div>
 										<div className="card-info">
@@ -215,7 +215,7 @@ export default function DealerListing() {
 									<div className="card-contact card-dealer d-flex">
 										<div className="card-image me-3">
 											<div className="position-relative">
-												<img src="/assets/imgs/dealer/dealer-listing/icon-9.svg" alt="Carento" />
+												<img src="/assets/imgs/dealer/dealer-listing/icon-9.svg" alt="VING" />
 											</div>
 										</div>
 										<div className="card-info">
@@ -235,7 +235,7 @@ export default function DealerListing() {
 									<div className="card-contact card-dealer d-flex">
 										<div className="card-image me-3">
 											<div className="position-relative">
-												<img src="/assets/imgs/dealer/dealer-listing/icon-10.svg" alt="Carento" />
+												<img src="/assets/imgs/dealer/dealer-listing/icon-10.svg" alt="VING" />
 											</div>
 										</div>
 										<div className="card-info">
@@ -255,7 +255,7 @@ export default function DealerListing() {
 									<div className="card-contact card-dealer d-flex">
 										<div className="card-image me-3">
 											<div className="position-relative">
-												<img src="/assets/imgs/dealer/dealer-listing/icon-11.svg" alt="Carento" />
+												<img src="/assets/imgs/dealer/dealer-listing/icon-11.svg" alt="VING" />
 											</div>
 										</div>
 										<div className="card-info">
@@ -275,7 +275,7 @@ export default function DealerListing() {
 									<div className="card-contact card-dealer d-flex">
 										<div className="card-image me-3">
 											<div className="position-relative">
-												<img src="/assets/imgs/dealer/dealer-listing/icon-12.svg" alt="Carento" />
+												<img src="/assets/imgs/dealer/dealer-listing/icon-12.svg" alt="VING" />
 											</div>
 										</div>
 										<div className="card-info">
@@ -295,7 +295,7 @@ export default function DealerListing() {
 									<div className="card-contact card-dealer d-flex">
 										<div className="card-image me-3">
 											<div className="position-relative">
-												<img src="/assets/imgs/dealer/dealer-listing/icon-13.svg" alt="Carento" />
+												<img src="/assets/imgs/dealer/dealer-listing/icon-13.svg" alt="VING" />
 											</div>
 										</div>
 										<div className="card-info">
@@ -315,7 +315,7 @@ export default function DealerListing() {
 									<div className="card-contact card-dealer d-flex">
 										<div className="card-image me-3">
 											<div className="position-relative">
-												<img src="/assets/imgs/dealer/dealer-listing/icon-2.svg" alt="Carento" />
+												<img src="/assets/imgs/dealer/dealer-listing/icon-2.svg" alt="VING" />
 											</div>
 										</div>
 										<div className="card-info">
@@ -336,7 +336,7 @@ export default function DealerListing() {
 									<div className="card-contact card-dealer d-flex">
 										<div className="card-image me-3">
 											<div className="position-relative">
-												<img src="/assets/imgs/dealer/dealer-listing/icon-4.svg" alt="Carento" />
+												<img src="/assets/imgs/dealer/dealer-listing/icon-4.svg" alt="VING" />
 											</div>
 										</div>
 										<div className="card-info">
@@ -412,18 +412,18 @@ export default function DealerListing() {
 										<div className="d-flex flex-column gap-4">
 											<div className="d-flex gap-4">
 												<div className="position-relative">
-													<img className="bdrd8 w-100" src="/assets/imgs/cta/cta-8/img-1.png" alt="Carento" />
+													<img className="bdrd8 w-100" src="/assets/imgs/cta/cta-8/img-1.png" alt="VING" />
 												</div>
 												<div className="mt-auto">
-													<img className="bdrd8 w-100" src="/assets/imgs/cta/cta-8/img-2.png" alt="Carento" />
+													<img className="bdrd8 w-100" src="/assets/imgs/cta/cta-8/img-2.png" alt="VING" />
 												</div>
 											</div>
 											<div className="d-flex gap-4">
 												<div className="position-relative">
-													<img className="bdrd8 w-100" src="/assets/imgs/cta/cta-8/img-3.png" alt="Carento" />
+													<img className="bdrd8 w-100" src="/assets/imgs/cta/cta-8/img-3.png" alt="VING" />
 												</div>
 												<div className="position-relative">
-													<img className="bdrd8 w-100" src="/assets/imgs/cta/cta-8/img-4.png" alt="Carento" />
+													<img className="bdrd8 w-100" src="/assets/imgs/cta/cta-8/img-4.png" alt="VING" />
 												</div>
 											</div>
 										</div>

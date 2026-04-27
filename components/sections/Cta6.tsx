@@ -1,4 +1,4 @@
-
+﻿
 import Link from "next/link"
 
 export default function Cta6() {
@@ -33,12 +33,12 @@ export default function Cta6() {
 								<div className="position-relative">
 									<div className="row align-items-center">
 										<div className="col-sm-6">
-											<img className="bdrd8 w-100 mb-15 wow fadeInUp" src="/assets/imgs/cta/cta-6/img-1.png" alt="Carento" />
-											<img className="bdrd8 w-100 mb-15 wow fadeInUp" src="/assets/imgs/cta/cta-6/img-2.png" alt="Carento" />
+											<img className="bdrd8 w-100 mb-15 wow fadeInUp" src="/assets/imgs/cta/cta-6/img-1.png" alt="VING" />
+											<img className="bdrd8 w-100 mb-15 wow fadeInUp" src="/assets/imgs/cta/cta-6/img-2.png" alt="VING" />
 										</div>
 										<div className="col-sm-6 mt-md-50">
-											<img className="bdrd8 w-100 mb-15 wow fadeInUp" src="/assets/imgs/cta/cta-6/img-3.png" alt="Carento" />
-											<img className="bdrd8 w-100 wow fadeInUp" src="/assets/imgs/cta/cta-6/img-4.png" alt="Carento" />
+											<img className="bdrd8 w-100 mb-15 wow fadeInUp" src="/assets/imgs/cta/cta-6/img-3.png" alt="VING" />
+											<img className="bdrd8 w-100 wow fadeInUp" src="/assets/imgs/cta/cta-6/img-4.png" alt="VING" />
 										</div>
 									</div>
 								</div>
@@ -51,3 +51,4 @@ export default function Cta6() {
 		</>
 	)
 }
+

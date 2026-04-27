@@ -1,4 +1,4 @@
-
+﻿
 import Link from "next/link"
 
 export default function Cta3() {
@@ -37,15 +37,15 @@ export default function Cta3() {
 								<div className="box-image-payment-2">
 									<div className="row align-items-center">
 										<div className="col-sm-4 mb-30">
-											<img className="bdrd8 w-100 wow fadeIn" data-wow-delay="0.1s" src="/assets/imgs/cta/cta-3/img-1.png" alt="Carento" />
+											<img className="bdrd8 w-100 wow fadeIn" data-wow-delay="0.1s" src="/assets/imgs/cta/cta-3/img-1.png" alt="VING" />
 										</div>
 										<div className="col-sm-4 mb-30">
-											<img className="bdrd8 w-100 mb-15 wow fadeIn" data-wow-delay="0.2s" src="/assets/imgs/cta/cta-3/img-2.png" alt="Carento" />
-											<img className="bdrd8 w-100 wow fadeIn" data-wow-delay="0.3s" src="/assets/imgs/cta/cta-3/img-3.png" alt="Carento" />
+											<img className="bdrd8 w-100 mb-15 wow fadeIn" data-wow-delay="0.2s" src="/assets/imgs/cta/cta-3/img-2.png" alt="VING" />
+											<img className="bdrd8 w-100 wow fadeIn" data-wow-delay="0.3s" src="/assets/imgs/cta/cta-3/img-3.png" alt="VING" />
 										</div>
 										<div className="col-sm-4 mb-30">
-											<img className="bdrd8 w-100 mb-15 wow fadeIn" data-wow-delay="0.4s" src="/assets/imgs/cta/cta-3/img-4.png" alt="Carento" />
-											<img className="bdrd8 w-100 wow fadeIn" data-wow-delay="0.5s" src="/assets/imgs/cta/cta-3/img-5.png" alt="Carento" />
+											<img className="bdrd8 w-100 mb-15 wow fadeIn" data-wow-delay="0.4s" src="/assets/imgs/cta/cta-3/img-4.png" alt="VING" />
+											<img className="bdrd8 w-100 wow fadeIn" data-wow-delay="0.5s" src="/assets/imgs/cta/cta-3/img-5.png" alt="VING" />
 										</div>
 									</div>
 								</div>
@@ -59,3 +59,4 @@ export default function Cta3() {
 		</>
 	)
 }
+

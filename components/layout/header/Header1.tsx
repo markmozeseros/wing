@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import dynamic from 'next/dynamic'
 const ThemeSwitch = dynamic(() => import('@/components/elements/ThemeSwitch'), {
 	ssr: false,
@@ -24,7 +24,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 								<svg width={16} height={12} viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path fillRule="evenodd" clipRule="evenodd" d="M1.96372 1.07378L6.28622 5.39816C7.22897 6.33909 8.77003 6.33991 9.71356 5.39816L14.0361 1.07378C14.0796 1.03025 14.0732 0.958563 14.0227 0.923344C13.5819 0.615875 13.0455 0.433594 12.4677 0.433594H3.53216C2.95431 0.433594 2.41791 0.615906 1.97703 0.923344C1.92653 0.958563 1.92019 1.03025 1.96372 1.07378ZM0.808594 3.15713C0.808594 2.70275 0.92125 2.27344 1.11969 1.89609C1.15072 1.83706 1.22938 1.82513 1.27653 1.87228L5.54431 6.14006C6.89578 7.4935 9.10322 7.49428 10.4555 6.14006L14.7233 1.87228C14.7704 1.82513 14.8491 1.83706 14.8801 1.89609C15.0785 2.27344 15.1912 2.70278 15.1912 3.15713V8.84266C15.1912 10.3456 13.9687 11.5662 12.4677 11.5662H3.53216C2.03116 11.5662 0.808594 10.3456 0.808594 8.84266V3.15713Z" fill="true" />
 								</svg>
-								<span className="d-none d-lg-inline-block">sale@carento.com</span>
+								<span className="d-none d-lg-inline-block">sale@ving.com</span>
 							</Link>
 						</div>
 						<div className="text-header">
@@ -39,7 +39,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 						</div>
 						<div className="top-right-header">
 							<Dropdown className="d-none d-xl-inline-block box-dropdown-cart align-middle mr-15 head-lang">
-								<Dropdown.Toggle as="span" className="text-14-medium icon-list icon-account icon-lang">
+								<Dropdown.Toggle id="header1-lang-toggle" as="span" className="text-14-medium icon-list icon-account icon-lang">
 									<span className="text-14-medium arrow-down">{lang.toUpperCase()}</span>
 								</Dropdown.Toggle>
 								<Dropdown.Menu className="dropdown-account" style={{visibility: 'visible'}}>
@@ -47,14 +47,11 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 										<li><button className="text-sm-medium dropdown-item" onClick={() => setLang('en')}>{t('lang.en')}</button></li>
 										<li><button className="text-sm-medium dropdown-item" onClick={() => setLang('hu')}>{t('lang.hu')}</button></li>
 										<li><button className="text-sm-medium dropdown-item" onClick={() => setLang('de')}>{t('lang.de')}</button></li>
-										<li><button className="text-sm-medium dropdown-item" onClick={() => setLang('fr')}>{t('lang.fr')}</button></li>
-										<li><button className="text-sm-medium dropdown-item" onClick={() => setLang('it')}>{t('lang.it')}</button></li>
-										<li><button className="text-sm-medium dropdown-item" onClick={() => setLang('es')}>{t('lang.es')}</button></li>
 									</ul>
 								</Dropdown.Menu>
 							</Dropdown>
 							<Dropdown className="d-none d-xl-inline-block box-dropdown-cart align-middle head-currency">
-								<Dropdown.Toggle  as="span" className="text-14-medium icon-list icon-cart">
+								<Dropdown.Toggle id="header1-currency-toggle" as="span" className="text-14-medium icon-list icon-cart">
 									<span className="text-14-medium arrow-down">USD</span>
 									</Dropdown.Toggle>
 								<Dropdown.Menu style={{visibility: 'visible'}} className="dropdown-cart">
@@ -76,8 +73,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 						<div className="header-left">
 							<div className="header-logo">
 								<Link className="d-flex" href="/">
-									<img className="light-mode" alt="Carento" src="/assets/imgs/template/logo-w.svg" />
-									<img className="dark-mode" alt="Carento" src="/assets/imgs/template/logo-w.svg" />
+									<img className="light-mode" alt="VING" src="/assets/imgs/template/logo-w.svg" />
+									<img className="dark-mode" alt="VING" src="/assets/imgs/template/logo-w.svg" />
 								</Link>
 							</div>
 							<div className="header-nav">
@@ -85,24 +82,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 									<ul className="main-menu">
 										<li><Link className="color-white" href="/">{t('nav.home')}</Link></li>
 										<li><Link className="color-white" href="/cars-list-1">{t('nav.vehicles')}</Link></li>
-										<li className="has-children arrow-white">
-											<Link className="color-white" href="#">{t('nav.dealers')}</Link>
-											<ul className="sub-menu">
-												<li><Link href="/dealer-listing">{t('nav.dealersListing')}</Link></li>
-												<li><Link href="/dealer-details">{t('nav.dealerDetails')}</Link></li>
-											</ul>
-										</li>
+										<li><Link className="color-white" href="/dealer-details">{t('nav.dealers')}</Link></li>
 										<li className="has-children arrow-white">
 											<Link className="color-white" href="#">{t('nav.pages')}</Link>
 											<ul className="sub-menu">
 												<li><Link href="/about-us">{t('nav.aboutUs')}</Link></li>
 												<li><Link href="/services">{t('nav.ourServices')}</Link></li>
-												<li><Link href="/calculator">{t('nav.calculator')}</Link></li>
 												<li><Link href="/faqs">{t('nav.faqs')}</Link></li>
-												<li><Link href="/contact">{t('nav.contact')}</Link></li>
-												<li><Link href="/login">{t('nav.login')}</Link></li>
-												<li><Link href="/register">{t('nav.register')}</Link></li>
-												<li><Link href="/404">{t('nav.error404')}</Link></li>
 											</ul>
 										</li>
 										<li><Link className="color-white" href="/contact">{t('nav.contact')}</Link></li>
@@ -110,16 +96,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 								</nav>
 							</div>
 							<div className="header-right">
-								<div className="d-none d-xxl-inline-block align-middle mr-15">
-									<Link className="btn btn-signin" href="/login">
-										<svg className="mb-1" xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
-											<path d="M3 14C3 14 2 14 2 13C2 12 3 9 8 9C13 9 14 12 14 13C14 14 13 14 13 14H3ZM8 8C8.79565 8 9.55871 7.68393 10.1213 7.12132C10.6839 6.55871 11 5.79565 11 5C11 4.20435 10.6839 3.44129 10.1213 2.87868C9.55871 2.31607 8.79565 2 8 2C7.20435 2 6.44129 2.31607 5.87868 2.87868C5.31607 3.44129 5 4.20435 5 5C5 5.79565 5.31607 6.55871 5.87868 7.12132C6.44129 7.68393 7.20435 8 8 8Z" fill="white" />
-										</svg>
-										{t('nav.signIn')}
-								</Link>
-								</div>
 								<div className="burger-icon-2 burger-icon-white" onClick={handleOffcanvas}>
-									<img src="/assets/imgs/template/icons/menu.svg" alt="Carento" />
+									<img src="/assets/imgs/template/icons/menu.svg" alt="VING" />
 								</div>
 								<div className="burger-icon burger-icon-white" onClick={handleMobileMenu}>
 									<span className="burger-icon-top" />
@@ -135,3 +113,4 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 		</>
 	)
 }
+
