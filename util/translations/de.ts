@@ -137,6 +137,8 @@ const de: TranslationKeys = {
     agencies: 'Agenturen',
     copyrightNotices: 'Urheberrechtshinweise',
     termsOfUse: 'Nutzungsbedingungen',
+    rentalTermsHu: 'Mietbedingungen - Ungarn',
+    aszfSummary: 'AGB Zusammenfassung',
     privacyNotice: 'Datenschutzerklärung',
     lostFound: 'Fundbüro',
     servicesTitle: 'Unsere Leistungen',

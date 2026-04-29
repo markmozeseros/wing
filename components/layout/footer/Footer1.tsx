@@ -45,10 +45,11 @@ export default function Footer1() {
 						<div className="col-md-2 col-xs-6 footer-3">
 							<h6 className="text-linear-3">{t('footer.companyTitle')}</h6>
 							<ul className="menu-footer">
-								<li><Link href="#">{t('footer.aboutUs')}</Link></li>
-								<li><Link href="#">{t('footer.termsOfUse')}</Link></li>
-								<li><Link href="#">{t('footer.privacyNotice')}</Link></li>
-								<li><Link href="#">{t('footer.lostFound')}</Link></li>
+								<li><Link href="/about-us">{t('footer.aboutUs')}</Link></li>
+								<li><Link href="/term">{t('footer.termsOfUse')}</Link></li>
+								<li><Link href="/autoberlesi-feltetelek-magyarorszag">{t('footer.rentalTermsHu')}</Link></li>
+								<li><Link href="/aszf-osszefoglalo">{t('footer.aszfSummary')}</Link></li>
+								<li><Link href="/adatvedelmi-tajekoztato">{t('footer.privacyNotice')}</Link></li>
 							</ul>
 						</div>
 						<div className="col-md-2 col-xs-6 footer-2">
@@ -63,7 +64,7 @@ export default function Footer1() {
 							<h6 className="text-linear-3">{t('footer.partnersTitle')}</h6>
 							<ul className="menu-footer">
 								<li><Link href="#">{t('footer.affiliates')}</Link></li>
-								<li><Link href="mailto:operation@hydrahorizon.com">{t('footer.workWithUs')}</Link></li>
+								<li><Link href="/berbeadasi-feltetelek">{t('footer.workWithUs')}</Link></li>
 								<li><Link href="mailto:operation@hydrahorizon.com">{t('footer.advertise')}</Link></li>
 							</ul>
 						</div>

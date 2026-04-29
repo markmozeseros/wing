@@ -135,6 +135,8 @@ const hu = {
     agencies: "Ügynökségek",
     copyrightNotices: "Szerzői jogi megjegyzések",
     termsOfUse: "Felhasználási feltételek",
+    rentalTermsHu: "Autóbérlési feltételek - Magyarország",
+    aszfSummary: "ÁSZF összefoglaló",
     privacyNotice: "Adatvédelmi nyilatkozat",
     lostFound: "Talált tárgyak",
     servicesTitle: "Szolgáltatásaink",

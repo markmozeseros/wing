@@ -137,6 +137,8 @@ const en: TranslationKeys = {
     agencies: "Agencies",
     copyrightNotices: "Copyright Notices",
     termsOfUse: "Terms of Use",
+    rentalTermsHu: "Car Rental Terms - Hungary",
+    aszfSummary: "GTC Summary",
     privacyNotice: "Privacy Notice",
     lostFound: "Lost & Found",
     servicesTitle: "Our Services",
