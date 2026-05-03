@@ -23,12 +23,12 @@ export default function Home() {
 				<Search1 />
 				<Brand1 />
 				<CarsListing1 />
-				<Cta1 />
+				<Cta4 />
 				<Categories1 />
 				<WhyUs1 />
 				<Cta2 />
 				<CarsListing2 />
-				<Cta4 />
+				<Cta1 />
 				<Services1 />
 				<Banners />
 				<CarReview1 />

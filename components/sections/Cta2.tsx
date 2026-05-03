@@ -2,22 +2,36 @@
 
 import CounterUp from '../elements/CounterUp'
 import { useState } from 'react'
+import Link from 'next/link'
 import { useLanguage } from '@/util/LanguageContext'
 
 const categoryRevenueMap = {
-	optionPassengerPremium: 840000,
-	optionPassengerMid: 480000,
-	optionPassengerBase: 432000,
-	optionSmallVan: 432000,
-	optionStandardVan: 486000,
-	optionLargeVan: 594000,
+	optionPassenger: [432000, 480000, 672000, 840000],
+	optionSmallVan: [432000, 486000],
+	optionStandardVan: [486000, 540000],
+	optionLargeVan: [594000, 648000],
 } as const
 
 export default function Cta2() {
 	const { t } = useLanguage()
-	const [selectedCategory, setSelectedCategory] = useState<keyof typeof categoryRevenueMap>('optionPassengerPremium')
-	const monthlyRevenue = categoryRevenueMap[selectedCategory]
+	const [selectedCategory, setSelectedCategory] = useState<keyof typeof categoryRevenueMap>('optionPassenger')
+	const [priceIndex, setPriceIndex] = useState(0)
+	const isPassenger = selectedCategory === 'optionPassenger'
+	const maxRangeIndex = isPassenger ? 3 : 1
+	const safePriceIndex = Math.min(priceIndex, maxRangeIndex)
+	const monthlyRevenue = categoryRevenueMap[selectedCategory][safePriceIndex]
 	const formattedRevenue = `${new Intl.NumberFormat('hu-HU').format(monthlyRevenue)} HUF`
+	const selectedRangeLabel = isPassenger
+		? [t('cta2.rangePassengerBase'), t('cta2.rangePassengerMid'), t('cta2.rangePassengerUpperMid'), t('cta2.rangePassengerHigh')][safePriceIndex]
+		: [t('cta2.rangeVanBase'), t('cta2.rangeVanHigh')][safePriceIndex]
+
+	const handleCategoryChange = (nextCategory: keyof typeof categoryRevenueMap) => {
+		setSelectedCategory(nextCategory)
+		if (nextCategory !== 'optionPassenger' && priceIndex > 1) {
+			setPriceIndex(1)
+		}
+	}
+
 	return (
 		<>
 
@@ -38,14 +52,33 @@ export default function Cta2() {
 										<div className="col-lg-12">
 											<div className="form-group">
 												<label className="text-sm-medium neutral-1000">{t('cta2.categoryLabel')}</label>
-												<select className="form-control form-select" value={selectedCategory} onChange={(event) => setSelectedCategory(event.target.value as keyof typeof categoryRevenueMap)}>
-													<option value="optionPassengerPremium">{t('cta2.optionPassengerPremium')}</option>
-													<option value="optionPassengerMid">{t('cta2.optionPassengerMid')}</option>
-													<option value="optionPassengerBase">{t('cta2.optionPassengerBase')}</option>
+												<select className="form-control form-select" value={selectedCategory} onChange={(event) => handleCategoryChange(event.target.value as keyof typeof categoryRevenueMap)}>
+													<option value="optionPassenger">{t('cta2.optionPassenger')}</option>
 													<option value="optionSmallVan">{t('cta2.optionSmallVan')}</option>
 													<option value="optionStandardVan">{t('cta2.optionStandardVan')}</option>
 													<option value="optionLargeVan">{t('cta2.optionLargeVan')}</option>
 												</select>
+											</div>
+										</div>
+										<div className="col-lg-12">
+											<div className="form-group">
+												<label className="text-sm-medium neutral-1000">{t('cta2.priceRangeLabel')}</label>
+												<input
+													className="form-range cta2-range"
+													type="range"
+													min={0}
+													max={maxRangeIndex}
+													step={1}
+													value={safePriceIndex}
+													onChange={(event) => setPriceIndex(Number(event.target.value))}
+												/>
+												<div className="d-flex justify-content-between align-items-center mt-2">
+													<span className="text-xs-medium neutral-500">{isPassenger ? t('cta2.rangePassengerBase') : t('cta2.rangeVanBase')}</span>
+													{isPassenger && <span className="text-xs-medium neutral-500">{t('cta2.rangePassengerMid')}</span>}
+													{isPassenger && <span className="text-xs-medium neutral-500">{t('cta2.rangePassengerUpperMid')}</span>}
+													<span className="text-xs-medium neutral-500">{isPassenger ? t('cta2.rangePassengerHigh') : t('cta2.rangeVanHigh')}</span>
+												</div>
+												<p className="text-sm-bold neutral-1000 mt-2 mb-0">{selectedRangeLabel}</p>
 											</div>
 										</div>
 										<div className="col-lg-12">
@@ -58,6 +91,14 @@ export default function Cta2() {
 												</div>
 											</div>
 										</div>
+										<div className="col-lg-12">
+											<Link className="btn btn-book" href="/contact">
+												{t('cta2.contactBtn')}
+												<svg width={17} height={16} viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M8.5 15L15.5 8L8.5 1M15.5 8L1.5 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+												</svg>
+											</Link>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -67,44 +108,32 @@ export default function Cta2() {
 						<div className="border-top py-3 mt-3" />
 						<div className="col-lg-7 mb-20 wow fadeIn">
 							<div className="row">
-								<div className="col-md-3 col-6 mb-md-0 mb-4 d-flex flex-column align-items-center align-items-md-start">
+								<div className="col-md-4 col-6 mb-md-0 mb-4 d-flex flex-column align-items-center align-items-md-start">
 									<div className="d-flex justify-content-center justify-content-md-start">
-										<h3 className="count text-white"><CounterUp count={45} /></h3>
+										<h3 className="count text-white"><CounterUp count={3} /></h3>
+									</div>
+									<div className="position-relative">
+										<p className="text-lg-bold text-white">{t('cta2.stat1Label')}</p>
+									</div>
+								</div>
+								<div className="col-md-4 col-6 mb-md-0 mb-4 d-flex flex-column align-items-center align-items-md-start">
+									<div className="d-flex justify-content-center justify-content-md-start">
+										<h3 className="count text-white"><CounterUp count={10} /></h3>
 										<h3 className="text-white">+</h3>
 									</div>
 									<div className="position-relative">
-										<p className="text-lg-bold text-white">Global</p>
-										<p className="text-lg-bold text-white">Branches</p>
+										<p className="text-lg-bold text-white">{t('cta2.stat2Label1')}</p>
+										<p className="text-lg-bold text-white">{t('cta2.stat2Label2')}</p>
 									</div>
 								</div>
-								<div className="col-md-3 col-6 mb-md-0 mb-4 d-flex flex-column align-items-center align-items-md-start">
+								<div className="col-md-4 col-6 mb-md-0 mb-4 d-flex flex-column align-items-center align-items-md-start">
 									<div className="d-flex justify-content-center justify-content-md-start">
-										<h3 className="count text-white"><CounterUp count={29} /></h3>
+										<h3 className="count text-white"><CounterUp count={10} /></h3>
 										<h3 className="text-white">K</h3>
 									</div>
 									<div className="position-relative">
-										<p className="text-lg-bold text-white">Destinations</p>
-										<p className="text-lg-bold text-white">Collaboration</p>
-									</div>
-								</div>
-								<div className="col-md-3 col-6 mb-md-0 mb-4 d-flex flex-column align-items-center align-items-md-start">
-									<div className="d-flex justify-content-center justify-content-md-start">
-										<h3 className="count text-white"><CounterUp count={20} /></h3>
-										<h3 className="text-white">+</h3>
-									</div>
-									<div className="position-relative">
-										<p className="text-lg-bold text-white">Years</p>
-										<p className="text-lg-bold text-white">Experience</p>
-									</div>
-								</div>
-								<div className="col-md-3 col-6 mb-md-0 mb-4 d-flex flex-column align-items-center align-items-md-start">
-									<div className="d-flex justify-content-center justify-content-md-start">
-										<h3 className="count text-white"><CounterUp count={168} /></h3>
-										<h3 className="text-white">K</h3>
-									</div>
-									<div className="position-relative">
-										<p className="text-lg-bold text-white">Happy</p>
-										<p className="text-lg-bold text-white">Customers</p>
+										<p className="text-lg-bold text-white">{t('cta2.stat3Label1')}</p>
+										<p className="text-lg-bold text-white">{t('cta2.stat3Label2')}</p>
 									</div>
 								</div>
 							</div>

@@ -13,7 +13,7 @@ export default function Banners() {
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-6">
-							<div className="box-banner-1 background-6 px-5 pt-40 position-relative rounded-12 overflow-hidden">
+							<div className="box-banner-1 px-5 pt-40 position-relative rounded-12 overflow-hidden" style={{backgroundColor: '#FF4500'}}>
 								<div className="banner-images wow fadeIn">
 									<img className="position-absolute bottom-0 end-0" src="/assets/imgs/banners/banners-1/img-1.png" alt="VING" />
 								</div>
@@ -34,7 +34,7 @@ export default function Banners() {
 							</div>
 						</div>
 						<div className="col-lg-6">
-							<div className="box-banner-1 background-5 px-5 pt-40 position-relative rounded-12 mt-lg-0 mt-4 overflow-hidden">
+							<div className="box-banner-1 px-5 pt-40 position-relative rounded-12 mt-lg-0 mt-4 overflow-hidden" style={{backgroundColor: '#FF4500'}}>
 								<div className="banner-images wow fadeIn">
 									<img className="position-absolute bottom-0 end-0" src="/assets/imgs/banners/banners-1/img-2.png" alt="VING" />
 								</div>
@@ -44,8 +44,8 @@ export default function Banners() {
 									</div>
 									<p className="banner-text text-md-regular py-3 wow fadeInUp">{t('banners.banner2Text')}</p>
 									<div className="banner-button pb-70 pt-3">
-										<Link className="btn btn-primary bg-white wow fadeInUp" href="/cars-list-1">
-											{t('common.getStarted')}
+										<Link className="btn btn-primary bg-white wow fadeInUp" href="/berbeadasi-feltetelek">
+											{t('banners.banner2Button')}
 											<svg width={16} height={16} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M8 15L15 8L8 1M15 8L1 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 											</svg>
