@@ -1,11 +1,23 @@
 ﻿'use client'
 
 import CounterUp from '../elements/CounterUp'
+import { useState } from 'react'
 import { useLanguage } from '@/util/LanguageContext'
 
+const categoryRevenueMap = {
+	optionPassengerPremium: 840000,
+	optionPassengerMid: 480000,
+	optionPassengerBase: 432000,
+	optionSmallVan: 432000,
+	optionStandardVan: 486000,
+	optionLargeVan: 594000,
+} as const
 
 export default function Cta2() {
 	const { t } = useLanguage()
+	const [selectedCategory, setSelectedCategory] = useState<keyof typeof categoryRevenueMap>('optionPassengerPremium')
+	const monthlyRevenue = categoryRevenueMap[selectedCategory]
+	const formattedRevenue = `${new Intl.NumberFormat('hu-HU').format(monthlyRevenue)} HUF`
 	return (
 		<>
 
@@ -23,49 +35,28 @@ export default function Cta2() {
 								<p className="text-sm-medium neutral-500 mb-25">{t('cta2.calcDesc')}</p>
 								<div className="form-contact">
 									<div className="row">
-										<div className="col-lg-6">
+										<div className="col-lg-12">
 											<div className="form-group">
-												<label className="text-sm-medium neutral-1000">{t('cta2.priceLabel')}</label>
-												<input className="form-control" type="text" placeholder="$20,000" />
-											</div>
-										</div>
-										<div className="col-lg-6">
-											<div className="form-group">
-												<label className="text-sm-medium neutral-1000">{t('cta2.interestLabel')}</label>
-												<input className="form-control" type="text" placeholder="5%" />
-											</div>
-										</div>
-										<div className="col-lg-6">
-											<div className="form-group">
-												<label className="text-sm-medium neutral-1000">{t('cta2.termsLabel')}</label>
-												<input className="form-control" type="text" placeholder="12 months" />
-											</div>
-										</div>
-										<div className="col-lg-6">
-											<div className="form-group">
-												<label className="text-sm-medium neutral-1000">{t('cta2.downLabel')}</label>
-												<input className="form-control" type="text" placeholder="$12,000" />
-											</div>
-										</div>
-										<div className="row py-4">
-											<div className="col-md-5 col-8 d-flex flex-column gap-1">
-												<p className="text-sm-bold neutral-1000">{t('cta2.downAmountLabel')}</p>
-												<p className="text-sm-bold neutral-1000">{t('cta2.financedLabel')}</p>
-												<p className="text-sm-bold neutral-1000">{t('cta2.monthlyLabel')}</p>
-											</div>
-											<div className="col-md-7 col-4 d-flex flex-column gap-1 align-items-end align-items-md-start">
-												<p className="text-sm-bold neutral-1000">$12,000</p>
-												<p className="text-sm-bold neutral-1000">$800,00</p>
-												<p className="text-sm-bold text-primary-dark">$480,00</p>
+												<label className="text-sm-medium neutral-1000">{t('cta2.categoryLabel')}</label>
+												<select className="form-control form-select" value={selectedCategory} onChange={(event) => setSelectedCategory(event.target.value as keyof typeof categoryRevenueMap)}>
+													<option value="optionPassengerPremium">{t('cta2.optionPassengerPremium')}</option>
+													<option value="optionPassengerMid">{t('cta2.optionPassengerMid')}</option>
+													<option value="optionPassengerBase">{t('cta2.optionPassengerBase')}</option>
+													<option value="optionSmallVan">{t('cta2.optionSmallVan')}</option>
+													<option value="optionStandardVan">{t('cta2.optionStandardVan')}</option>
+													<option value="optionLargeVan">{t('cta2.optionLargeVan')}</option>
+												</select>
 											</div>
 										</div>
 										<div className="col-lg-12">
-											<button className="btn btn-book">
-												{t('cta2.calcBtn')}
-												<svg width={17} height={16} viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M8.5 15L15.5 8L8.5 1M15.5 8L1.5 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-												</svg>
-											</button>
+											<div className="row py-4 align-items-center">
+												<div className="col-md-5 col-8 d-flex flex-column gap-1">
+													<p className="text-sm-bold neutral-1000">{t('cta2.revenueLabel')}</p>
+												</div>
+												<div className="col-md-7 col-4 d-flex flex-column gap-1 align-items-end align-items-md-start">
+													<p className="text-sm-bold text-primary-dark">{formattedRevenue}</p>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>

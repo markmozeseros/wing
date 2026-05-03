@@ -10,18 +10,17 @@ export default function Cta4() {
 		<>
 
 			<section className="section-cta-4 position-relative overflow-hidden">
-				<div className="bg-shape" />
 				<div className="container position-relative z-1">
 					<div className="text-center">
 						<span className="text-sm-bold bg-white p-3 rounded-12 wow fadeInDown">{t('cta4.badge')}</span>
-						<h4 className="mt-4 wow fadeInUp">
+						<h4 className="mt-4 text-white wow fadeInUp">
 							{t('cta4.title')} <br />
 							{t('cta4.subtitle')}
 						</h4>
 					</div>
 					<div className="row mt-60">
-						<div className="col-lg-4">
-							<div className="bg-white rounded-12 p-5 d-flex flex-column gap-4">
+						<div className="col-lg-6">
+							<div className="cta4-card rounded-12 p-5 d-flex flex-column gap-4">
 								<span className="icon-shape icon_70 background-2 rounded-circle wow fadeIn">
 									<img className="dark-invert" src="/assets/imgs/cta/cta-4/icon-1.svg" alt="VING" />
 								</span>
@@ -35,11 +34,8 @@ export default function Cta4() {
 								</Link>
 							</div>
 						</div>
-						<div className="col-lg-4 text-center wow fadeInUp">
-							<img src="/assets/imgs/cta/cta-4/car-center.png" alt="VING" />
-						</div>
-						<div className="col-lg-4">
-							<div className="bg-white rounded-12 p-5 d-flex flex-column gap-4">
+						<div className="col-lg-6 mt-lg-0 mt-4">
+							<div className="cta4-card rounded-12 p-5 d-flex flex-column gap-4">
 								<span className="icon-shape icon_70 background-2 rounded-circle wow fadeIn">
 									<img className="dark-invert" src="/assets/imgs/cta/cta-4/icon-2.svg" alt="VING" />
 								</span>
