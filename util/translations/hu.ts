@@ -190,7 +190,7 @@ const hu = {
     howItWorks: "Így működik",
     security: "Biztonság",
     refund: "Visszatérítési irányelvek",
-    address: "2356 Oakwood Drive, 18-as iroda, San Francisco, Kalifornia 94111, USA",
+    address: "167 Madison Avenue #205 New York, NY 10016 USA",
     hours: "Nyitvatartás: 8:00 – 17:00, H–Szo",
     email: "operation@hydrahorizon.com",
     needHelp: "Segítségre van szüksége? Hívjon minket",

@@ -192,7 +192,7 @@ const en: TranslationKeys = {
     howItWorks: "How it works",
     security: "Security",
     refund: "Refund Policy",
-    address: "2356 Oakwood Drive, Suite 18, San Francisco, California 94111, US",
+    address: "167 Madison Avenue #205 New York, NY 10016 USA",
     hours: "Hours: 8:00 - 17:00, Mon - Sat",
     email: "operation@hydrahorizon.com",
     needHelp: "Need help? Call us",

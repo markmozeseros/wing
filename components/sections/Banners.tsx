@@ -13,7 +13,7 @@ export default function Banners() {
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-6">
-							<div className="box-banner-1 px-5 pt-40 position-relative rounded-12 overflow-hidden" style={{backgroundColor: '#FF4500'}}>
+							<div className="box-banner-1 px-5 pt-40 position-relative rounded-12 overflow-hidden" style={{backgroundColor: '#F50226'}}>
 								<div className="banner-images wow fadeIn">
 									<img className="position-absolute bottom-0 end-0" src="/assets/imgs/banners/banners-1/img-1.png" alt="VING" />
 								</div>
@@ -34,7 +34,7 @@ export default function Banners() {
 							</div>
 						</div>
 						<div className="col-lg-6">
-							<div className="box-banner-1 px-5 pt-40 position-relative rounded-12 mt-lg-0 mt-4 overflow-hidden" style={{backgroundColor: '#FF4500'}}>
+							<div className="box-banner-1 px-5 pt-40 position-relative rounded-12 mt-lg-0 mt-4 overflow-hidden" style={{backgroundColor: '#F50226'}}>
 								<div className="banner-images wow fadeIn">
 									<img className="position-absolute bottom-0 end-0" src="/assets/imgs/banners/banners-1/img-2.png" alt="VING" />
 								</div>

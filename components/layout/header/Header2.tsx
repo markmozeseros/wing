@@ -104,16 +104,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, handle
 									</ul>
 								</nav>
 							</div>
-							<div className="header-right">
-								<div className="burger-icon-2 burger-icon-white" onClick={handleOffcanvas}>
-									<img src="/assets/imgs/template/icons/menu.svg" alt="VING" />
-								</div>
-								<div className="burger-icon burger-icon-white" onClick={handleMobileMenu}>
-									<span className="burger-icon-top" />
-									<span className="burger-icon-mid"> </span>
-									<span className="burger-icon-bottom"> </span>
-								</div>
-							</div>
+
 						</div>
 					</div>
 				</div>

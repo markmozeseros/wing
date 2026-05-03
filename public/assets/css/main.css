@@ -10678,7 +10678,7 @@ a.icon-socials:hover svg path {
 }
 
 .list-videos-small .item-video-small .item-info .heading-6:hover {
-    color: var(--bs-neutral-1000);
+    color: #ffffff !important;
 }
 
 .box-picked {
