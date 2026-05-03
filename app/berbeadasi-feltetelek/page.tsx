@@ -35,7 +35,7 @@ type Copy = {
     s4: string
     s5: string
     s6: string
-    s7: string
+    s7: string 
     s8: string
     sfleet: string
     s9: string

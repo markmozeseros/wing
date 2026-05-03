@@ -13,6 +13,7 @@ import ByRating from "@/components/Filter/ByRating";
 import Layout from "@/components/layout/Layout";
 import rawCarsData from "@/util/cars.json";
 import useCarFilter from "@/util/useCarFilter";
+import { useLanguage } from "@/util/LanguageContext";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
 const carsData = rawCarsData.map((car) => ({
@@ -20,6 +21,7 @@ const carsData = rawCarsData.map((car) => ({
     rating: parseFloat(car.rating as string),
 }));
 export default function CarsList4() {
+    const { t } = useLanguage();
     const { filter, setFilter, sortCriteria, setSortCriteria, itemsPerPage, setItemsPerPage, currentPage, setCurrentPage, uniqueNames, uniqueFuelTypes, uniqueAmenities, uniqueLocations, uniqueRatings, uniqueCarTypes, filteredCars, sortedCars, totalPages, startIndex, endIndex, paginatedCars, handleCheckboxChange, handleSortChange, handlePriceRangeChange, handleItemsPerPageChange, handlePageChange, handlePreviousPage, handleNextPage, handleClearFilters, startItemIndex, endItemIndex } = useCarFilter(carsData);
 
     return (
@@ -45,18 +47,19 @@ export default function CarsList4() {
                                 <div className="box-top-search">
                                     <div className="left-top-search">
                                         <Link className="category-link text-sm-bold btn-click active" href="#">
-                                            All cars
+                                            {t('search1.allCars')}
                                         </Link>
                                         <Link className="category-link text-sm-bold btn-click" href="#">
-                                            New cars
+                                            {t('search1.newCars')}
                                         </Link>
                                         <Link className="category-link text-sm-bold btn-click" href="#">
-                                            Used cars
+                                            {t('search1.usedCars')}
                                         </Link>
+                                        <Link className="category-link text-sm-bold btn-click" href="#">{t('search1.otherCategories')}</Link>
                                     </div>
                                     <div className="right-top-search d-none d-md-flex">
                                         <Link className="text-sm-medium need-some-help" href="/contact">
-                                            Need help?
+                                            {t('search1.needHelp')}
                                         </Link>
                                     </div>
                                 </div>

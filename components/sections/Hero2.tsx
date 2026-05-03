@@ -3,8 +3,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link"
 import { swiperGroup1 } from '@/util/swiperOptions'
 import HeroSearch from '../elements/HeroSearch'
+import { useLanguage } from '@/util/LanguageContext'
 
 export default function Hero2() {
+	const { t } = useLanguage()
 	return (
 		<>
 
@@ -47,12 +49,13 @@ export default function Hero2() {
 						<div className="box-search-advance background-card wow fadeInUp mb-5">
 							<div className="box-top-search">
 								<div className="left-top-search">
-									<Link className="category-link text-sm-bold btn-click active" href="#">All cars</Link>
-									<Link className="category-link text-sm-bold btn-click" href="#">New cars</Link>
-									<Link className="category-link text-sm-bold btn-click" href="#">Used cars</Link>
+									<Link className="category-link text-sm-bold btn-click active" href="#">{t('search1.allCars')}</Link>
+									<Link className="category-link text-sm-bold btn-click" href="#">{t('search1.newCars')}</Link>
+									<Link className="category-link text-sm-bold btn-click" href="#">{t('search1.usedCars')}</Link>
+									<Link className="category-link text-sm-bold btn-click" href="#">{t('search1.otherCategories')}</Link>
 								</div>
 								<div className="right-top-search d-none d-md-flex">
-									<Link className="text-sm-medium need-some-help" href="/contact">Need help?</Link>
+									<Link className="text-sm-medium need-some-help" href="/contact">{t('search1.needHelp')}</Link>
 								</div>
 							</div>
 							<HeroSearch />
