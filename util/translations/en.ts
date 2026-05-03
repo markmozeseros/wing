@@ -51,7 +51,7 @@ const en: TranslationKeys = {
     findVehicle: "Find a Vehicle",
   },
   carsListing1: {
-    title: "Our Most Popular Categories",
+    title: "Our Most Popular Cars",
     subtitle: "Choose from our customers' favorites",
   },
   carsListing2: {
@@ -98,6 +98,12 @@ const en: TranslationKeys = {
   categories1: {
     title: "Available Vehicle Categories",
     subtitle: "Choose the ideal vehicle for every occasion",
+    cat1: "Premium",
+    cat2: "SUV",
+    cat3: "Sedan",
+    cat4: "Small Van",
+    cat5: "Standard Van",
+    cat6: "Large Van",
   },
   whyUs1: {
     badge: "SIMPLE PROCESS",

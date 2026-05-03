@@ -49,7 +49,7 @@ const hu = {
     findVehicle: "Jármű keresése",
   },
   carsListing1: {
-    title: "Legnépszerűbb kategóriáink",
+    title: "Legnépszerűbb autóink",
     subtitle: "Válassz ügyfeleink kedvencei közül",
   },
   carsListing2: {
@@ -96,6 +96,12 @@ const hu = {
   categories1: {
     title: "Elérhető járműkategóriák",
     subtitle: "Válaszd a legideálisabb járművet minden alkalomhoz",
+    cat1: "Premium",
+    cat2: "SUV",
+    cat3: "Sedan",
+    cat4: "Kisteher",
+    cat5: "Standard Furgon",
+    cat6: "Nagy Furgon",
   },
   whyUs1: {
     badge: "EGYSZERŰ FOLYAMAT",

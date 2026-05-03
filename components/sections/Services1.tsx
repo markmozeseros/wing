@@ -28,7 +28,7 @@ export default function Services1() {
 											</div>
 											<div className="card-info background-card">
 												<div className="card-left">
-													<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/services">Budapest</Link></div>
+													<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/services">Budapest HU</Link></div>
 													<div className="card-desc"><Link className="text-sm neutral-500" href="#">2 helyen</Link></div>
 												</div>
 												<div className="card-right">
@@ -50,7 +50,7 @@ export default function Services1() {
 											</div>
 											<div className="card-info background-card">
 												<div className="card-left">
-													<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/services">Bécs</Link></div>
+													<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/services">Bécs AT</Link></div>
 													<div className="card-desc"><Link className="text-sm neutral-500" href="#">1 helyen</Link></div>
 												</div>
 												<div className="card-right">
@@ -72,7 +72,7 @@ export default function Services1() {
 											</div>
 											<div className="card-info background-card">
 												<div className="card-left">
-													<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/services">Kerpen</Link></div>
+													<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/services">Kerpen DE</Link></div>
 													<div className="card-desc"><Link className="text-sm neutral-500" href="#">1 helyen</Link></div>
 												</div>
 												<div className="card-right">
@@ -94,7 +94,7 @@ export default function Services1() {
 											</div>
 											<div className="card-info background-card">
 												<div className="card-left">
-													<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/services">Berlin</Link></div>
+													<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/services">Berlin DE</Link></div>
 													<div className="card-desc"><Link className="text-sm neutral-500" href="#">Nemsokára</Link></div>
 												</div>
 												<div className="card-right">

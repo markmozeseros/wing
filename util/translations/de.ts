@@ -51,7 +51,7 @@ const de: TranslationKeys = {
     findVehicle: 'Fahrzeug finden',
   },
   carsListing1: {
-    title: 'Unsere beliebtesten Kategorien',
+    title: 'Unsere beliebtesten Autos',
     subtitle: 'Waehlen Sie aus den Favoriten unserer Kunden',
   },
   carsListing2: {
@@ -98,6 +98,12 @@ const de: TranslationKeys = {
   categories1: {
     title: 'Verfügbare Fahrzeugkategorien',
     subtitle: 'Wählen Sie das ideale Fahrzeug für jeden Anlass',
+    cat1: 'Premium',
+    cat2: 'SUV',
+    cat3: 'Sedan',
+    cat4: 'Kleintransporter',
+    cat5: 'Standard-Transporter',
+    cat6: 'Großtransporter',
   },
   whyUs1: {
     badge: 'EINFACHER ABLAUF',
