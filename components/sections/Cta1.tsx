@@ -1,11 +1,8 @@
 ﻿"use client";
 import Link from "next/link";
-import { useState } from "react";
-import ModalVideo from "react-modal-video";
 import { useLanguage } from "@/util/LanguageContext";
 
 export default function Cta1() {
-    const [isOpen, setOpen] = useState(false);
     const { t } = useLanguage();
     return (
         <>
@@ -15,7 +12,6 @@ export default function Cta1() {
                         <div className="col-lg-6 pe-lg-5 wow fadeInUp">
                             <div className="card-video">
                                 <div className="card-image">
-                                    <a className="btn btn-play popup-youtube" onClick={() => setOpen(true)} />
                                     <img src="/assets/imgs/cta/cta-1/video.png" alt="VING" />
                                 </div>
                             </div>
@@ -59,7 +55,6 @@ export default function Cta1() {
                     </div>
                 </div>
             </section>
-            <ModalVideo channel="youtube" isOpen={isOpen} videoId="AOg61RB75Ho" onClose={() => setOpen(false)} />
         </>
     );
 }
