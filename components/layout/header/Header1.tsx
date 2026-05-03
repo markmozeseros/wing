@@ -103,7 +103,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 									</ul>
 								</nav>
 							</div>
-
+							<div className="header-right">
+								<div className={`burger-icon burger-icon-white ${isMobileMenu ? 'burger-close' : ''}`} onClick={handleMobileMenu}>
+									<span className="burger-icon-top" />
+									<span className="burger-icon-mid" />
+									<span className="burger-icon-bottom" />
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

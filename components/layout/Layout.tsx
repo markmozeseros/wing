@@ -21,6 +21,7 @@ interface LayoutProps {
 
 export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, children }: LayoutProps) {
 	const [scroll, setScroll] = useState<boolean>(false)
+	const isHeaderOne = headerStyle == 1
 	// MobileMenu
 	const [isMobileMenu, setMobileMenu] = useState<boolean>(false)
 	const handleMobileMenu = (): void => {
@@ -64,7 +65,7 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 			{headerStyle == 1 ? <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isOffcanvas={isOffcanvas} handleOffcanvas={handleOffcanvas} /> : null}
 			{headerStyle == 2 ? <Header2 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isOffcanvas={isOffcanvas} handleOffcanvas={handleOffcanvas} /> : null}
 			{headerStyle == 3 ? <Header3 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isOffcanvas={isOffcanvas} handleOffcanvas={handleOffcanvas} /> : null}
-			<MobileMenu isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} />
+			{isHeaderOne ? <MobileMenu isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
 			<Offcanvas isOffcanvas={isOffcanvas} handleOffcanvas={handleOffcanvas} />
 
 			<main className="main">

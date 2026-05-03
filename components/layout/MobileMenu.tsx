@@ -17,7 +17,11 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
 				<PerfectScrollbar className="mobile-header-wrapper-inner">
 					<div className="mobile-header-logo">
 						<Link className="d-flex" href="/"><img className="light-mode" alt="VING" src="/assets/imgs/template/logo-d.svg" /><img className="dark-mode" alt="VING" src="/assets/imgs/template/logo-w.svg" /></Link>
-						<div className="burger-icon burger-icon-white" onClick={handleMobileMenu} />
+						<div className="burger-icon burger-icon-white burger-close" onClick={handleMobileMenu}>
+							<span className="burger-icon-top" />
+							<span className="burger-icon-mid" />
+							<span className="burger-icon-bottom" />
+						</div>
 					</div>
 					<div className="mobile-header-content-area">
 						<div className="perfect-scroll">
