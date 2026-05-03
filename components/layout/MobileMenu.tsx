@@ -6,7 +6,13 @@ import { useLanguage } from '@/util/LanguageContext'
 
 export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
 	const [isAccordion, setIsAccordion] = useState(0)
-	const { t } = useLanguage()
+	const { t, lang, setLang } = useLanguage()
+	const languageButtonStyle = {
+		fontSize: '14px',
+		lineHeight: '1.2',
+		padding: '7px 12px',
+		minHeight: 'auto',
+	}
 
 	const handleAccordion = (key: any) => {
 		setIsAccordion(prevState => prevState === key ? null : key)
@@ -25,6 +31,34 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
 					</div>
 					<div className="mobile-header-content-area">
 						<div className="perfect-scroll">
+							<div className="mobile-header-border pb-20 mb-20">
+								<div className="d-flex gap-2 flex-wrap">
+									<button
+										type="button"
+										className={`btn btn-sm ${lang === 'en' ? 'btn-brand-2' : 'btn-border-1'}`}
+										style={languageButtonStyle}
+										onClick={() => setLang('en')}
+									>
+										{t('lang.en')}
+									</button>
+									<button
+										type="button"
+										className={`btn btn-sm ${lang === 'hu' ? 'btn-brand-2' : 'btn-border-1'}`}
+										style={languageButtonStyle}
+										onClick={() => setLang('hu')}
+									>
+										{t('lang.hu')}
+									</button>
+									<button
+										type="button"
+										className={`btn btn-sm ${lang === 'de' ? 'btn-brand-2' : 'btn-border-1'}`}
+										style={languageButtonStyle}
+										onClick={() => setLang('de')}
+									>
+										{t('lang.de')}
+									</button>
+								</div>
+							</div>
 							<div className="mobile-menu-wrap mobile-header-border">
 								<nav>
 									<ul className="mobile-menu font-heading">
