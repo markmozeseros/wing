@@ -22,7 +22,8 @@ export interface CountryConfig {
   companyName: string
   defaultLang: Language
   availableLangs: LangOption[]
-  urlPrefix: string // e.g. 'HU', 'AT', 'DE'
+  urlPrefix: string
+  dealerPoints: string[]
 }
 
 export const COUNTRIES: Record<Country, CountryConfig> = {
@@ -34,6 +35,7 @@ export const COUNTRIES: Record<Country, CountryConfig> = {
     companyName: 'VING Magyarország',
     defaultLang: 'hu',
     urlPrefix: 'HU',
+    dealerPoints: ['VING Point Budaörs', 'VING Point Reptér', 'VING Point Belváros'],
     availableLangs: [
       { code: 'hu', label: 'Magyar' },
       { code: 'en', label: 'English' },
@@ -47,6 +49,7 @@ export const COUNTRIES: Record<Country, CountryConfig> = {
     companyName: 'VING Austria',
     defaultLang: 'de',
     urlPrefix: 'AT',
+    dealerPoints: ['VING Point Vienna'],
     availableLangs: [
       { code: 'de', label: 'Deutsch' },
       { code: 'en', label: 'English' },
@@ -60,6 +63,7 @@ export const COUNTRIES: Record<Country, CountryConfig> = {
     companyName: 'VING Deutschland',
     defaultLang: 'de',
     urlPrefix: 'DE',
+    dealerPoints: ['VING Point Berlin', 'VING Point Köpen'],
     availableLangs: [
       { code: 'de', label: 'Deutsch' },
       { code: 'en', label: 'English' },

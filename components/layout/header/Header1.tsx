@@ -89,11 +89,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 										<li className="has-children arrow-white">
 											<Link className="color-white" href="#">{t('nav.dealers')}</Link>
 											<ul className="sub-menu">
-												<li><Link href="/dealer-details">VING Point Budaörs</Link></li>
-												<li><Link href="/dealer-details">VING Point Budaörs</Link></li>
-												<li><Link href="/dealer-details">VING Point Budaörs</Link></li>
-												<li><Link href="/dealer-details">VING Point Budaörs</Link></li>
-												<li><Link href="/dealer-details">VING Point Budaörs</Link></li>
+											{countryConfig.dealerPoints.map((point) => (
+												<li key={point}><LocaleLink href="/dealer-details">{point}</LocaleLink></li>
+											))}
 											</ul>
 										</li>
 										<li className="has-children arrow-white">
