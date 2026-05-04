@@ -1,12 +1,13 @@
 ﻿'use client'
 import Link from 'next/link'
+import LocaleLink from '@/components/elements/LocaleLink'
 import { useState } from 'react'
 import PerfectScrollbar from 'react-perfect-scrollbar'
 import { useLanguage } from '@/util/LanguageContext'
 
 export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
 	const [isAccordion, setIsAccordion] = useState(0)
-	const { t, lang, setLang } = useLanguage()
+	const { t, lang, setLang, countryConfig } = useLanguage()
 	const languageButtonStyle = {
 		fontSize: '14px',
 		lineHeight: '1.2',
@@ -33,50 +34,37 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
 						<div className="perfect-scroll">
 							<div className="mobile-header-border pb-20 mb-20">
 								<div className="d-flex gap-2 flex-wrap">
-									<button
-										type="button"
-										className={`btn btn-sm ${lang === 'en' ? 'btn-brand-2' : 'btn-border-1'}`}
-										style={languageButtonStyle}
-										onClick={() => setLang('en')}
-									>
-										{t('lang.en')}
-									</button>
-									<button
-										type="button"
-										className={`btn btn-sm ${lang === 'hu' ? 'btn-brand-2' : 'btn-border-1'}`}
-										style={languageButtonStyle}
-										onClick={() => setLang('hu')}
-									>
-										{t('lang.hu')}
-									</button>
-									<button
-										type="button"
-										className={`btn btn-sm ${lang === 'de' ? 'btn-brand-2' : 'btn-border-1'}`}
-										style={languageButtonStyle}
-										onClick={() => setLang('de')}
-									>
-										{t('lang.de')}
-									</button>
+									{countryConfig.availableLangs.map((l) => (
+										<button
+											key={l.code}
+											type="button"
+											className={`btn btn-sm ${lang === l.code ? 'btn-brand-2' : 'btn-border-1'}`}
+											style={languageButtonStyle}
+											onClick={() => setLang(l.code)}
+										>
+											{l.label}
+										</button>
+									))}
 								</div>
 							</div>
 							<div className="mobile-menu-wrap mobile-header-border">
 								<nav>
 									<ul className="mobile-menu font-heading">
 										<li><Link href="/">{t('nav.home')}</Link></li>
-										<li><Link href="/cars-list-1">{t('nav.vehicles')}</Link></li>
-										<li><Link href="/dealer-details">{t('nav.dealers')}</Link></li>
-										<li className={`has-children ${isAccordion === 5 ? "active" : ""}`}>
-											<span className="menu-expand" onClick={() => handleAccordion(5)}>
-												<i className="arrow-small-down"></i>
-											</span>
-											<Link href="#">{t('nav.pages')}</Link>
-											<ul className="sub-menu" style={{ display: `${isAccordion == 5 ? "block" : "none"}` }}>
-												<li><Link href="/about-us">{t('nav.aboutUs')}</Link></li>
-												<li><Link href="/services">{t('nav.ourServices')}</Link></li>
-												<li><Link href="/faqs">{t('nav.faqs')}</Link></li>
-											</ul>
-										</li>
-										<li><Link href="/contact">{t('nav.contact')}</Link></li>
+									<li><LocaleLink href="/cars-list-1">{t('nav.vehicles')}</LocaleLink></li>
+									<li><LocaleLink href="/dealer-details">{t('nav.dealers')}</LocaleLink></li>
+									<li className={`has-children ${isAccordion === 5 ? "active" : ""}`}>
+										<span className="menu-expand" onClick={() => handleAccordion(5)}>
+											<i className="arrow-small-down"></i>
+										</span>
+										<Link href="#">{t('nav.pages')}</Link>
+										<ul className="sub-menu" style={{ display: `${isAccordion == 5 ? "block" : "none"}` }}>
+											<li><LocaleLink href="/about-us">{t('nav.aboutUs')}</LocaleLink></li>
+											<li><LocaleLink href="/services">{t('nav.ourServices')}</LocaleLink></li>
+											<li><LocaleLink href="/faqs">{t('nav.faqs')}</LocaleLink></li>
+										</ul>
+									</li>
+									<li><LocaleLink href="/contact">{t('nav.contact')}</LocaleLink></li>
 									</ul>
 								</nav>
 							</div>

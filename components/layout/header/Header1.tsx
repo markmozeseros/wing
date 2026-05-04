@@ -4,10 +4,11 @@ const ThemeSwitch = dynamic(() => import('@/components/elements/ThemeSwitch'), {
 	ssr: false,
 })
 import Link from 'next/link'
+import LocaleLink from '@/components/elements/LocaleLink'
 import Dropdown from 'react-bootstrap/Dropdown'
-import { useLanguage } from '@/util/LanguageContext'
+import { useLanguage, COUNTRIES } from '@/util/LanguageContext'
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handleOffcanvas, isOffcanvas }: any) {
-	const { t, lang, setLang } = useLanguage()
+	const { t, lang, setLang, country, setCountry, countryConfig } = useLanguage()
 	return (
 		<>
 			<header className={`header header-fixed sticky-bar ${scroll ? 'stick' : ''}`}>
@@ -43,21 +44,25 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 								</Dropdown.Toggle>
 								<Dropdown.Menu className="dropdown-account" style={{visibility: 'visible'}}>
 									<ul>
-										<li><button className="text-sm-medium dropdown-item" onClick={() => setLang('en')}>{t('lang.en')}</button></li>
-										<li><button className="text-sm-medium dropdown-item" onClick={() => setLang('hu')}>{t('lang.hu')}</button></li>
-										<li><button className="text-sm-medium dropdown-item" onClick={() => setLang('de')}>{t('lang.de')}</button></li>
+									{countryConfig.availableLangs.map((l) => (
+										<li key={l.code}><button className="text-sm-medium dropdown-item" onClick={() => setLang(l.code)}>{l.label}</button></li>
+									))}
 									</ul>
 								</Dropdown.Menu>
 							</Dropdown>
 							<Dropdown className="d-none d-xl-inline-block box-dropdown-cart align-middle head-currency">
-								<Dropdown.Toggle id="header1-currency-toggle" as="span" className="text-14-medium icon-list icon-cart">
-									<span className="text-14-medium arrow-down">USD</span>
-									</Dropdown.Toggle>
-								<Dropdown.Menu style={{visibility: 'visible'}} className="dropdown-cart">
-									<ul>
-										<li><Link className="text-sm-medium" href="#">USD</Link></li>
-										<li><Link className="text-sm-medium" href="#">EUR</Link></li>
-										<li><Link className="text-sm-medium" href="#">SGP</Link></li>
+							<Dropdown.Toggle id="header1-country-toggle" as="span" className="text-14-medium icon-list icon-account icon-lang">
+								<span className="text-14-medium arrow-down">{countryConfig.flag} {countryConfig.code.toUpperCase()}</span>
+							</Dropdown.Toggle>
+							<Dropdown.Menu style={{visibility: 'visible'}} className="dropdown-account">
+								<ul>
+									{Object.values(COUNTRIES).map((c) => (
+										<li key={c.code}>
+											<button className="text-sm-medium dropdown-item" onClick={() => setCountry(c.code)}>
+												{c.flag} {c.name}
+											</button>
+										</li>
+									))}
 									</ul>
 								</Dropdown.Menu>
 							</Dropdown>

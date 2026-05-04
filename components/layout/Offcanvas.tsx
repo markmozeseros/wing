@@ -1,6 +1,8 @@
 ﻿import Link from "next/link";
+import { useLanguage, COUNTRIES } from "@/util/LanguageContext";
 
 export default function Offcanvas({ isOffcanvas, handleOffcanvas }: any) {
+    const { lang, setLang, country, setCountry, countryConfig } = useLanguage()
     return (
         <>
             <div className={`sidebar-canvas-wrapper perfect-scrollbar button-bg-2 ${isOffcanvas ? "sidebar-canvas-visible" : ""}`}>
@@ -15,49 +17,33 @@ export default function Offcanvas({ isOffcanvas, handleOffcanvas }: any) {
                         <div className="sidebar-canvas-lang">
                             <div className="d-inline-block box-dropdown-cart align-middle mr-15">
                                 <span className="text-14-medium icon-list icon-account icon-lang">
-                                    <span className="text-14-medium arrow-down text-dark invert">EN</span>
+                                    <span className="text-14-medium arrow-down text-dark invert">{lang.toUpperCase()}</span>
                                 </span>
                                 <div className="dropdown-account">
                                     <ul>
-                                        <li>
-                                            <Link className="text-sm-medium" href="#">
-                                                English
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link className="text-sm-medium" href="#">
-                                                French
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link className="text-sm-medium" href="#">
-                                                Chinese
-                                            </Link>
-                                        </li>
+                                        {countryConfig.availableLangs.map((l) => (
+                                            <li key={l.code}>
+                                                <button className="text-sm-medium dropdown-item" onClick={() => setLang(l.code)}>
+                                                    {l.label}
+                                                </button>
+                                            </li>
+                                        ))}
                                     </ul>
                                 </div>
                             </div>
                             <div className="d-inline-block box-dropdown-cart align-middle mr-15">
-                                <span className="text-14-medium icon-list icon-cart">
-                                    <span className="text-14-medium arrow-down text-dark invert">USD</span>
+                                <span className="text-14-medium icon-list icon-account icon-lang">
+                                    <span className="text-14-medium arrow-down text-dark invert">{countryConfig.flag} {countryConfig.code.toUpperCase()}</span>
                                 </span>
-                                <div className="dropdown-cart">
+                                <div className="dropdown-account">
                                     <ul>
-                                        <li>
-                                            <Link className="text-sm-medium" href="#">
-                                                USD
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link className="text-sm-medium" href="#">
-                                                EUR
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link className="text-sm-medium" href="#">
-                                                SGP
-                                            </Link>
-                                        </li>
+                                        {Object.values(COUNTRIES).map((c) => (
+                                            <li key={c.code}>
+                                                <button className="text-sm-medium dropdown-item" onClick={() => setCountry(c.code)}>
+                                                    {c.flag} {c.name}
+                                                </button>
+                                            </li>
+                                        ))}
                                     </ul>
                                 </div>
                             </div>
